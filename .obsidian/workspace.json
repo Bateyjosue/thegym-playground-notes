@@ -13,43 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sock Puppets.md",
+                "file": "JavaScript/Node/index.js.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "7af58be50bfa64e4",
+            "id": "b70ffd569c000ef6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Interview Preps.md",
+                "file": "JavaScript/Node/Intro.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "27755c4e8e46cf88",
+            "id": "3b484e35ff4a8a76",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Briefings/06.02.2024-Kimon- Interview Preps.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "012a31d9115d263c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Briefings/Briefings.md",
+                "file": "JavaScript/Node/Node Basics.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "fd0dfcc9b3566824",
@@ -122,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Briefings/06.02.2024-Kimon- Interview Preps.md",
+                "file": "JavaScript/Node/Node Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Briefings/06.02.2024-Kimon- Interview Preps.md",
+                "file": "JavaScript/Node/Node Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Briefings/06.02.2024-Kimon- Interview Preps.md"
+                "file": "JavaScript/Node/Node Basics.md"
               }
             }
           },
@@ -199,44 +188,47 @@
       "random-note:Open random note": false,
       "zk-prefixer:Create new unique note": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-advanced-slides:Show Slide Preview": false
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "27755c4e8e46cf88",
+  "active": "3b484e35ff4a8a76",
   "lastOpenFiles": [
+    "JavaScript/Node/index.js.md",
+    "JavaScript/Node/Node Basics.md",
+    "JavaScript/Node/Intro.md",
+    "node.png",
+    "Template/TOC.md",
+    "JavaScript/Nestjs/nestjs.md",
+    "Template",
+    "JavaScript/Nestjs/Introduction.md",
+    "JavaScript/TS.md",
+    "Briefings/02.09.2024-Kimon.md",
+    "Briefings/2024-02-12 Kimon.md",
+    "JavaScript/Mental models to JS.md",
+    "JavaScript/Interview Preps.md",
+    "JavaScript/ES6.md",
+    "JavaScript/JS/ES6.md",
+    "JavaScript/React/Actions and protected routes.md",
+    "JavaScript/React/reactjs.md",
+    "JavaScript/React/Note App.md",
+    "JavaScript/React/Nested Routes.md",
+    "JavaScript/React/Mental Model.md",
+    "JavaScript/React/Mental Modal.md",
+    "JavaScript/React/search parameter.md",
+    "JavaScript/React/state.md",
+    "Cyber Sec/OSINT/Sock Puppets.md",
+    "Briefings/02.07.2024- Kimon.md",
     "Briefings/Briefings.md",
     "Briefings/06.02.2024-Kimon- Interview Preps.md",
     "Briefings/2023-10-04.md",
-    "Briefings/Exercises and Schedule.md",
-    "JavaScript/Interview Preps.md",
-    "Sock Puppets.md",
-    "Cyber Sec/OSINT/Open Source Intelligence.md",
-    "Cyber Sec/IT and Cyber-Security Fundamentals.md",
-    "Cyber Sec/OSINT/Modele 2.md",
-    "JavaScript/Nestjs/Introduction.md",
-    "Untitled 3.md",
-    "Untitled.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
-    "Untitled 2.md",
-    "Untitled 1.md",
     "Cyber Sec/OSINT/information.png",
-    "reame.md",
     "Cyber Sec/OSINT",
-    "Cyber Sec/CLI Basics.md",
-    "JavaScript/Nestjs/nestjs.md",
     "Cyber Sec",
-    "JavaScript/key-takeaway-writing.md",
-    "JavaScript/Tutorials Plan/Plan.md",
-    "JavaScript/React/state.md",
-    "JavaScript/Tutorials Plan/Plans.md",
     "Pasted image 20240126103517.png",
-    "English/Prompt.md",
-    "Projects/Moni Share/QA Review.md",
-    "Professional Skills/Interview Preps/tricks.md",
     "Professional Skills/Interview Preps",
-    "JavaScript/React/Mental Model.md",
-    "JavaScript/React/Note App.md",
     "custom-types-thumbnail.webp",
     "JavaScript/Solidjs",
     "dupli.png",
@@ -249,8 +241,6 @@
     "architecture.png",
     "guards.png",
     "JavaScript/Tutorials Plan/index.js",
-    "JavaScript/Nestjs/Project/Todo api",
-    "JavaScript/Nestjs/Project",
-    "controller.png"
+    "JavaScript/Nestjs/Project/Todo api"
   ]
 }
