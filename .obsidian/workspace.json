@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JS/TS/Kata.md",
+                "file": "JS/JS/Q style promises.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "df01c160d43b07e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JS/JS/Asynchronous Programming.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "887eb6e9417dbd5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JS/JS/Asynchronous Programming.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/TS/Kata.md",
+                "file": "JS/JS/Asynchronous Programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JS/TS/Kata.md",
+                "file": "JS/JS/Asynchronous Programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JS/TS/Kata.md"
+                "file": "JS/JS/Asynchronous Programming.md"
               }
             }
           },
@@ -162,17 +187,22 @@
       "obsidian-statusbar-pomo:Start pomodoro": false
     }
   },
-  "active": "bdff7d569a37acc7",
+  "active": "887eb6e9417dbd5f",
   "lastOpenFiles": [
+    "JS/TS/TypeScript.md",
+    "JS/TS/Articles/List & Links.md",
+    "2023-09-06.md",
+    "JS/JS/fetchAPI.md",
+    "JS/JS/Asynchronous Programming.md",
+    "JS/JS/Q style promises.md",
+    "JS/JS/xhr.md",
+    "JS/TS/Kata.md",
     "README.md",
     "JS/TS/Articles/Read/From JavaScript to TypeScript.md",
-    "JS/TS/TypeScript.md",
     "Pasted image 20230905083446.png",
-    "JS/TS/Kata.md",
     "English/Receiving Feedback.md",
     "English/English.md",
     "English",
-    "JS/JS/Asynchronous Programming.md",
     "JS/TS/Articles/Read",
     "JS/TS/Articles",
     "Pasted image 20230904080523.png",
