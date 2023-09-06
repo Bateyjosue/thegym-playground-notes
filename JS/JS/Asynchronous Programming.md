@@ -217,3 +217,7 @@ Here are some situations where you should use Promises:
 
 > A promise is a try and catch wrapper that will finish at a unpredictable time
 
+### Q Style Promise
+ ![[Q style promises]]
+ <h2>fetchAPI</h2>
+![[fetchAPI]]

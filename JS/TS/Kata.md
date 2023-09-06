@@ -63,3 +63,10 @@ Your job is to return a list of two strings (in the same order as the original l
 ["a:12345", "777:xyz"]  -->  ["a:xyz", "777:12345"]
 ```
 
+```typescript
+let set = new Set<string>(routes.flat())
+let singleRoute :string[]= []
+set.forEach((el:string) => singleRoute.push(el))
+return singleRoute.join(', ')
+```
+
