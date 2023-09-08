@@ -216,7 +216,7 @@ function add(a: number, b: number) {
 typescript will infer this to a <code style="color: red">:number</code> 
 > However, if a function has different branches that return different types the compiler may infer <code style="color: red">union</code> type or <code style="color: red">any</code> type.
 
-#### Function Types
+## Function Types
 
 TypeScript has two part the parameters and return type. and when you declaring the function type you need to specify both parts 
 **Syntax
@@ -417,4 +417,51 @@ function sum(a: number, b: number, c?: number): number {
 		<li>TypeScript function overloadings allow you to describe the relationship between parameter types and the results of a function</li>
 	</ul>
 </div>
+
+
+
+## Intersection Types
+
+An intersection type creates a new type by combining multiple existing types. 
+To combine types, you use the `&` operator as follows
+
+```typescript
+type typeAB = typeA & typeB;
+```
+
+The `typeAB` will have all properties from both `typeA` and `typeB`
+
+**Example**: 
+```typescript
+interface BusinessPartner {
+	name: string;
+	credit: number;
+}
+
+interface Identity {
+	id: number;
+	name: string;
+}
+
+interface Contact {
+	id: number;
+	phone: string;
+}
+
+type Employee = Identity & Contact;
+type Customer = BusinessPartner & Contact;
+```
+
+the `Employee` type contains all properties of the `Identity` and `Contact` type
+```typescript
+type Employee = Identity & Contact;
+let e: Employee = {
+	id: 100,
+	name: 'John Doe',
+	email: 'john@gmail.com',
+	phone: '(408)-897-5684'
+};
+```
+And the `Customer` type contains all properties of the `BusinessPartner` and `Contact` type
+
 
