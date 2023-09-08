@@ -70,3 +70,74 @@ set.forEach((el:string) => singleRoute.push(el))
 return singleRoute.join(', ')
 ```
 
+3. Bit Counting
+
+## Description
+
+Write a function that takes an integer as input, and returns the number of bits that are equal to one in the binary representation of that number. You can guarantee that input is non-negative.
+
+_Example_: The binary representation of `1234` is `10011010010`, so the function should return `5` in this case
+
+#### Solution
+
+```typescript
+export function countBits(n: number): number {
+	let binary = (n).toString(2)
+	if(n > 0){
+		return [...binary].filter(el => el ==='1').length
+	}
+	return 0
+}
+```
+
+#### Summary 
+
+> In this Kata I have Used the function `toString()` to convert a number to its binary system `Number.toString()`
+> `let binary = (n).toString(2)` with `n` being the integer and `2` the binary system representation
+> after I spread the binary because after the conversion it came in `string ` format so I will have a array of character in `binary` with the following code `[...binary]` then filter them to get 1's, finally returning the `length` of the filtered array with 1's
+
+4.  Two Sum
+## Description
+ Write a function that takes an array of numbers (integers for the tests) and a target number. It should find two different items in the array that, when added together, give the target value. The indices of these items should then be returned in a tuple / list (depending on your language) like so: `(index1, index2)`.
+
+For the purposes of this kata, some tests may have multiple answers; any valid solutions will be accepted.
+
+The input will always be valid (numbers will be an array of length 2 or greater, and all of the items will be numbers; target will always be the sum of two different items from that array).
+
+Based on: [http://oj.leetcode.com/problems/two-sum/](http://oj.leetcode.com/problems/two-sum/)
+
+```javascript
+twoSum([1, 2, 3], 4) // returns [0, 2] or [2, 0]
+```
+### First Solution
+
+```js
+function twoSum(numbers, target) {
+  let min = Math.min(...numbers)
+  let i1 = numbers.indexOf(min)
+ for(let i= 0; i< numbers.length; i++){
+   if(i != i1 && min + numbers[i] === target){
+      console.log(numbers[i], numbers[i1])
+      return  [ i, i1]
+   }
+ }
+}
+```
+
+>> For this code One test wasn't passing because I was starting my condition based on the minimum number but for the case like `twoSum([1234, 5678, 9012], 14690)` was failing because the min number adding the any other in the collection wasn't `===` to the `target`
+### Refactored Solution
+
+```js
+function twoSum(numbers, target) {
+  for (let i = 0; i < numbers.length; i++) {
+    for (let j = i + 1; j < numbers.length; j++) {
+      if (numbers[i] + numbers[j] === target) {
+        console.log(numbers[i], numbers[j]);
+        return [i, j];
+      }
+    }
+  }
+}
+```
+
+>> Using nested loop will help me to navigate with 2 index the current and `+1`
