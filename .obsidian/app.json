@@ -2,5 +2,6 @@
   "newFileLocation": "current",
   "promptDelete": false,
   "livePreview": true,
-  "defaultViewMode": "source"
+  "defaultViewMode": "source",
+  "alwaysUpdateLinks": true
 }

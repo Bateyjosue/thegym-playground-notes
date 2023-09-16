@@ -4,47 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "d2c4b101a886ba79",
+        "id": "7046bff38f1503c4",
         "type": "tabs",
         "children": [
           {
-            "id": "bdff7d569a37acc7",
+            "id": "9982f0fdd22bd8a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JS/JS/Q style promises.md",
+                "file": "JS/JS/Kata.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "df9d743428fcb50c",
+            "id": "53ed348103dc669c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JS/TS/TypeScript.md",
+                "file": "CSS/CSS Animation.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "069e0d5d1b2e583d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JS/TS/Kata.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "df01c160d43b07e8",
+            "id": "ac4811c92e212b48",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -56,24 +44,12 @@
             }
           },
           {
-            "id": "c4df6896fe0cd5fc",
+            "id": "8e3bfd9810e3457b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JS/JS/Asynchronous Programming.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1eec6b944d9768d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JS/JS/Articles/Links.md",
+                "file": "English/English.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/TS/Kata.md",
+                "file": "JS/JS/Mental Mode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JS/TS/Kata.md",
+                "file": "JS/JS/Mental Mode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JS/TS/Kata.md"
+                "file": "JS/JS/Mental Mode.md"
               }
             }
           },
@@ -196,6 +172,16 @@
             "state": {
               "type": "code-execute-manage-executors",
               "state": {}
+            }
+          },
+          {
+            "id": "3659c8bdec6bed83",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
             }
           }
         ],
@@ -220,50 +206,59 @@
       "workspaces:Manage workspace layouts": false,
       "zk-prefixer:Create new unique note": false,
       "publish:Publish changes...": false,
-      "obsidian-statusbar-pomo:Start pomodoro": false
+      "obsidian-statusbar-pomo:Start pomodoro": false,
+      "obsidian-importer:Open Importer": false
     }
   },
-  "active": "069e0d5d1b2e583d",
+  "active": "ac4811c92e212b48",
   "lastOpenFiles": [
-    "JS/TS/TypeScript.md",
-    "JS/JS/Asynchronous Programming.md",
-    "ChatGPT_MD/templates",
-    "ChatGPT_MD/chats",
-    "ChatGPT_MD",
-    "Pasted image 20230908174528.png",
-    "Pasted image 20230908173540.png",
-    "JS/JS/Mental Mode.md",
-    "JS/JS/Articles/Links.md",
-    "JS/TS/Kata.md",
-    "JS/TS/Articles/List & Links.md",
-    "JS/JS/Articles/Write",
-    "JS/JS/Articles/Read",
-    "JS/TS/Articles/Untitled.canvas",
-    "JS/JS/Articles",
-    "2023-09-06.md",
-    "JS/JS/fetchAPI.md",
-    "JS/JS/Q style promises.md",
-    "JS/JS/xhr.md",
-    "README.md",
-    "JS/TS/Articles/Read/From JavaScript to TypeScript.md",
-    "Pasted image 20230905083446.png",
-    "English/Receiving Feedback.md",
     "English/English.md",
-    "English",
-    "JS/TS/Articles/Read",
-    "JS/TS/Articles",
-    "Pasted image 20230904080523.png",
-    "Pasted image 20230901183108.png",
-    "CSS/CSS.md",
-    "bars.png",
-    "spinner.png",
-    "CSS/Tailwindcss.md",
-    "CSS",
-    "JS/JS/ES6.md",
-    "JS/TS/Mental Model.md",
-    "JS/TS/Exercise.md",
-    "2023-08-30.md",
-    "Untitled.canvas",
-    "Typescript.md"
+    "Retrospective/Feedback.md",
+    "JS/JS/Mental Mode.md",
+    "JS/JS/asyncvsparal.md",
+    "JS/JS/trade-off-asyc-.md",
+    "Pasted image 20230915164624.png",
+    "JS/JS/challenge-scalable-event-driven-system.md",
+    "JS/JS/realtime-notification-eventdriven.md",
+    "JS/JS/event-message-driven.md",
+    "Retrospective/Retrospective.md",
+    "JS/JS/Anki.md",
+    "Retrospective/Clédia.md",
+    "Briefings/01.09.2023 - kimon.md",
+    "Briefings/By Date.md",
+    "Briefings/Exercises and Schedule.md",
+    "Briefings/One-One - Nkaka.md",
+    "Briefings/Professional Skills Advise.md",
+    "Briefings/Team Work Ojemba Website.md",
+    "Briefings/1&1 with Coach.md",
+    "Briefings/12.09.2024 - Kimon.md",
+    "Briefings/Briefings.md",
+    "JS/ES6.md",
+    "JS/JS Fundamentals Group Discussion.md",
+    "Code and Design/Figma workshop.md",
+    "JS Fundamentals Group Discussion cbbd468ffc244924974062e3ce1eebcf/Mental models sessions 4cc491678316459c85256bccd11e656e.md",
+    "JS Fundamentals Group Discussion cbbd468ffc244924974062e3ce1eebcf",
+    "Pasted image 20230908173540.png.md",
+    "Retrospective 644c8495de4e4592a6f99c6f06627782/Team Work Ojemba Website.md",
+    "GraphQL",
+    "Retrospective 644c8495de4e4592a6f99c6f06627782",
+    "End Of Day",
+    "Retrospective",
+    "Self Reflection 72b73042646b400a813b1617430dfe04",
+    "stu-illustration.png",
+    "The Gym cd4d2cc4568c48e6a832b762d5a66095",
+    "joanna-kosinska-669797-unsplash.jpg",
+    "jakob-owens-209001-unsplash.jpg",
+    "florencia-potter-699220-unsplash.jpg",
+    "Git & Github",
+    "daniel-corneschi-627754-unsplash.jpg",
+    "Coding Learning Notes",
+    "Code and Design",
+    "biel-morro-458184-unsplash.jpg",
+    "aranxa-esteve-130752-unsplash.jpg",
+    "elena-koycheva-1054933-unsplash.jpg",
+    "diego-ph-249471-unsplash.jpg",
+    "JS/TS/Articles/Untitled.canvas",
+    "Untitled.canvas"
   ]
 }
