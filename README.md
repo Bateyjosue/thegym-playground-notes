@@ -1,2 +1,0 @@
-# thegym-notes
-note taking
