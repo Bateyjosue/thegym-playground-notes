@@ -1,0 +1,8 @@
+- do every thing one its time box
+- always checked Kimon messages and react if it concerns you
+- always humble yourself while working in team
+- don't let your Ego control you
+- not rush or skip any content
+- in the assessment be specific by starting by the most important one
+- start with easier task
+- reflect in the way you on the team
