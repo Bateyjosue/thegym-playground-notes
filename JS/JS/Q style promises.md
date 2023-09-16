@@ -9,7 +9,7 @@ Clarifies the behavior clauses of the earlier Promises/A proposal. Promises/A+ s
 - **"reason"**: is a value that indicates why a promise was rejected
 
 #### Promise States
-
+>
 **1. When Pending**
 >May transition to either fulfilled state or rejected state
 **2. When fulfilled**

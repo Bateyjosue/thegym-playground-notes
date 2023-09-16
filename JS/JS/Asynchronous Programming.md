@@ -3,12 +3,33 @@ What is the best way to handle Asynchronous? #card
 is by using promises
 
 What is promises?
+<div style='background-color: #d9eee1; color:black; padding: 2rem 1rem; text-align: center;margin:2rem 1rem'>
+	_"I will finish later!"_
+<br>
+	Functions running in <b>parallel</b>  other functions are called <b>asynchronous</b>
+	
+	A good example is JavaScript setTimeout()
+</div>
+With asynchronous programming, JavaScript programs can start long-running tasks, and continue running other tasks in paralell.
+
+But, asynchronus programmes are difficult to write and difficult to debug.
+
+Because of this, most modern asynchronous JavaScript methods don't use callbacks. Instead, in JavaScript, asynchronous programming is solved using **Promises** instead.
 
 ___
 ## Promises
 --- 
 > Promise object represents the eventual completion or failure of an asynchronous operation and its resulting value.
 
+<div style='background-color: #d9eee1; color:black; padding: 2rem 1rem; text-align: center;margin:2rem 1rem'>
+	<h2>_"I Promise a Result!"_</h2>
+<br />
+	"Producing code" is code that can take some time
+	
+	"Consuming code" is code that must wait for the result
+	
+	A Promise is a JavaScript object that links producing code and consuming code
+</div>
 #### Chaining
 
 Here each subsequent operation starts when the previous operation succeeds, with the result from the previous step.
@@ -79,9 +100,7 @@ const listOfIngredients = [];
 doSomething()
   .then((url) => fetch(url))
   .then((res) => res.json())
-  .then((data) => {
-    listOfIngredients.push(data);
-  })
+  .then((data) => listOfIngredients.push(data))
   .then(() => {
     console.log(listOfIngredients);
   });
@@ -152,7 +171,7 @@ for (const f of [func1, func2, func3]) {
 
 #### Task queues vs microtasks
 
->> Promise callbacks are handled as a **microtask** whereas `setTimeout()` callbacks are handled as task queues.
+>> Promise and callbacks are handled as a **microtask** whereas `setTimeout()` callbacks are handled as **task queues**.
 
 ```js
 const promise = new Promise((resolve, reject) => {
@@ -183,7 +202,7 @@ A `Promise` is in one of these states
 1. `pending`: initial state, neither fulfilled nor reject
 2. `fulfilled`: meaning that the operation was completed successfully
 3. `rejected`: meaning that the operation failed
-4. settled: Something happened either fulfilled or rejected![[Pasted image 20230901183108.png]]
+4. `settled`: Something happened either fulfilled or rejected![[Pasted image 20230901183108.png]]
 
  > I promise can only settle once whether **fulfilled** or **rejected** 
  
@@ -229,7 +248,7 @@ Here are some situations where you should use Promises:
 
 ## Array Methods and Promises
 
- ### Promises with `.forEach()`
+### Promises with `.forEach()`
 
 ```js
 getJSON('url')
@@ -241,14 +260,12 @@ getJSON('url')
 })
 ```
 
- ### Promises with `Promise.all()`
+### Promises with `Promise.all()`
 
 It's take a array of promises and execute the promise for each element to return a an array of values in the same order  as the origin promises
 
 > - Rejects if just one Promise reject
 > - Resolves after every Promise resolves
-
-
 
 ```js
 getJSON('../data/earth-like-results.json')
@@ -262,7 +279,6 @@ getJSON('../data/earth-like-results.json')
 ```
 
 ## JS Callbacks
-
 <div style='background-color: #d9eee1; color:black; padding: 1rem; text-align: center;'> 
 	<p>
 			A Callback is  a function passed as an argument to another function
@@ -275,6 +291,32 @@ getJSON('../data/earth-like-results.json')
 	</p>
 </div>
 
+
+```js
+// Create an Array  
+const myNumbers = [4, 1, -20, -7, 5, 9, -6];  
+  
+// Call removeNeg with a callback  
+const posNumbers = removeNeg(myNumbers, (x) => x >= 0);  
+  
+// Display Result  
+document.getElementById("demo").innerHTML = posNumbers;  
+  
+// Keep only positive numbers  
+function removeNeg(numbers, callback) {  
+  const myArray = [];  
+  for (const x of numbers) {  
+    if (callback(x)) {  
+      myArray.push(x);  
+    }  
+  }  
+  return myArray;  
+}
+```
+### When to Use a Callback?
+
+> Where callbacks really shine are in asynchronous functions, where one function has to wait for another function (like waiting for a file to load).
+
 ## Event Loop
 
 the runtime can  run one task at a time but browser gives us other things like the webAPIs, callback Queue and event loop.
@@ -284,23 +326,23 @@ The V8 has **callback** and **Heap**, it does not know about the Call Stack, Eve
 1. **Memory Heap**: is for memory allocation
 2. **Call stack** is for Execution context
 
-SO the V8 doesn't know about the setTimeout, DOM, HTTP Request, that why the browser add them for use to be used
+SO the V8 doesn't know about the setTimeout, DOM, HTTP Request, that why the browser add them for use in form of an API
 
 ![[Pasted image 20230908174528.png]]
 
-1. Calls tack:  One thread == One call stack  == one thing at a time
+1. **Call stack**:  One thread == One call stack  == one thing at a time
 
 > so while executing a slow code can make our application blocking. therefor, it must wait for the current execution to finish, that where <mark>asynchronous callbacks</mark> comes in.
 
 **JavaScript and Asynchronous Operations:**
 
-JavaScript is single-threaded, meaning it can only execute one operation at a time. When a piece of code is running, it occupies the call stack, which is like a to-do list for the JavaScript engine. It processes tasks one by one in a sequential manner.
+JavaScript is single-threaded, meaning it can only execute one operation at a time. When a piece of code is running, it occupies the <mark>call stack</mark>, which is like a to-do list for the JavaScript engine. It processes tasks one by one in a sequential manner.
 
 However, not all operations in a web application are quick and efficient. Some tasks, like fetching data from a server, waiting for user input, or performing animations, may take time. If these time-consuming tasks were executed synchronously, they would block the entire application, causing it to freeze.
 
 **Asynchronous Callbacks:**
 
-To handle such situations and keep the application responsive, JavaScript introduces the concept of asynchronous callbacks. When a task takes time to complete, rather than blocking the main thread of execution, JavaScript schedules it to run in the background and continues executing other code. When the background task finishes, it notifies the JavaScript engine by placing a callback function in a queue.
+To handle such situations and keep the application responsive, JavaScript introduces the concept of asynchronous callbacks. When a task takes time to complete, rather than blocking the main thread of execution, JavaScript schedules it to run in the background and continues executing other code. When the background task finishes, it notifies the JavaScript engine by placing a callback function in a <mark>queue</mark> or <mark>Callback Queue</mark>.
 
 **Event Loop:**
 
@@ -310,7 +352,6 @@ Here's where the event loop comes into play. The event loop is a crucial part of
     
 2. **Callback Queue:** The callback queue holds callback functions that are ready to be executed. These callbacks are the result of asynchronous tasks, like timers, HTTP requests, or user interactions.
     
-
 **How It Works:**
 
 1. When a JavaScript script is running, it starts by executing the initial code (synchronous operations) and filling up the call stack.
@@ -327,9 +368,12 @@ Here's where the event loop comes into play. The event loop is a crucial part of
 
 > the event loop in JavaScript is responsible for managing asynchronous operations like callbacks, promises, and timers. It ensures that these operations are executed in the appropriate order while keeping the main thread responsive
 
+<div style="background-color: #F0E68C; color:black; padding: 1rem; text-align: center; ">
+	The event loop is responsible for moving asynchronous tasks from the callback queue to the call stack whenever the call stack is empty
+</div>
 **1. Call Stack:**
 
-At the core of the event loop is the call stack. It's a data structure that keeps track of function calls in your code. When you invoke a function, it's pushed onto the stack, and when the function completes, it's popped off the stack.
+At the core of the <mark>event loop</mark> is the call stack. It's a data structure that keeps track of function calls in your code. When you invoke a function, it's pushed onto the stack, and when the function completes, it's popped off the stack.
 
 The call stack ensures that JavaScript executes code in a single-threaded, synchronous manner. Only one function is processed at a time.
 
@@ -364,3 +408,47 @@ Here's a simplified step-by-step breakdown of how the event loop works:
 **Important Note:**
 
 The event loop's behavior ensures that JavaScript remains non-blocking. It allows you to initiate time-consuming or I/O-bound tasks without freezing the main thread. This is essential for creating responsive web applications.
+
+### Promise Concurrency
+
+### How JS code get Executed Synchronously and Asynchronously
+
+[[JS Engine]]
+
+is a program that execute JS code  and converts it to a language a computer can understand.
+V8 is the JavaScript engine in Google Chrome and Nodejs. 
+> Different browsers have different JS Engines but with the same concept under the hood.
+
+### Terminology
+
+#### 1. Execution Context
+
+An execution context is an environment where JavaScript code runs and executes. A new execution context is created whenever a function is called or invoked. We have two types of execution contexts: Global execution context and function execution context. And an execution context has two phases: memory creation(happen in heap) and code execution(in the stack).
+#### 2. Variable environment
+
+Is where the JS Engine allocates memory in key-value pairs to the variables and functions within a execution context
+
+#### 3. Call stack
+
+Is the part of JS Engine that keep track of function calls. When a function gets invoked, it is pushed to the call stack where its execution begins, and when the execution is complete, the function gets popped off the call stack. It uses the concept of stacks **Last In First Out** principle
+
+#### 4. Event Loop
+
+The Event Loop moves asynchronous tasks from the <mark style="padding:.1rem 1rem; border-radius: 1.5rem">microtask queue</mark> and the <mark style="padding:.1rem 1rem; border-radius: 1.5rem">callback queue</mark> to the <mark style="padding:.1rem 1rem; border-radius: 1.5rem">call stack</mark>  whenever the call stack is empty
+
+#### 5. Callback Queue
+
+It where callback functions for `setTimeout()` are added to the callback queue before they are moved to the call stack for execution
+
+#### 6. Microtask Queue
+
+Asynchronous callback function for promises are queued in here before they are moved to the call stack for execution
+
+![[code]]
+
+![[Anki]]
+
+# Mental Model
+___
+![[Mental Mode]]
+

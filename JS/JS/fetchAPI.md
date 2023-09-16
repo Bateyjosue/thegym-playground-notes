@@ -45,7 +45,7 @@ var headers = new Headers({
 });
 ```
 
->> You can use the `append`, `has`, `get`, `set`, and `delete` methods to modify request headers. to us request headers, create a `Request` instance
+>> You can use the `append`, `has`, `get`, `set`, and `delete` methods to modify request headers. to use request headers, create a `Request` instance
 
 ```js
 let request = new Request('url',
