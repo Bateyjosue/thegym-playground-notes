@@ -8,55 +8,30 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9982f0fdd22bd8a9",
+            "id": "cf4d926fe381c398",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JS/JS/Kata.md",
+                "file": "Briefings/1&1/21.09.2023.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "53ed348103dc669c",
+            "id": "468e0a88faed9b97",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/CSS Animation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ac4811c92e212b48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JS/JS/Mental Mode.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8e3bfd9810e3457b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "English/English.md",
+                "file": "JavaScript/React/reactjs.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/JS/Mental Mode.md",
+                "file": "Briefings/1&1/21.09.2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JS/JS/Mental Mode.md",
+                "file": "Briefings/1&1/21.09.2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JS/JS/Mental Mode.md"
+                "file": "Briefings/1&1/21.09.2023.md"
               }
             }
           },
@@ -210,50 +185,50 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "ac4811c92e212b48",
+  "active": "cf4d926fe381c398",
   "lastOpenFiles": [
-    "English/English.md",
-    "Retrospective/Feedback.md",
-    "JS/JS/Mental Mode.md",
-    "JS/JS/asyncvsparal.md",
-    "JS/JS/trade-off-asyc-.md",
-    "Pasted image 20230915164624.png",
-    "JS/JS/challenge-scalable-event-driven-system.md",
-    "JS/JS/realtime-notification-eventdriven.md",
-    "JS/JS/event-message-driven.md",
+    "Retrospective/mypassion.md",
+    "Briefings/1&1/21.09.2023.md",
+    "Briefings/1&1",
+    "JavaScript/React/reactjs.md",
+    "Retrospective/Articles.md",
     "Retrospective/Retrospective.md",
-    "JS/JS/Anki.md",
-    "Retrospective/Clédia.md",
-    "Briefings/01.09.2023 - kimon.md",
-    "Briefings/By Date.md",
-    "Briefings/Exercises and Schedule.md",
-    "Briefings/One-One - Nkaka.md",
-    "Briefings/Professional Skills Advise.md",
-    "Briefings/Team Work Ojemba Website.md",
-    "Briefings/1&1 with Coach.md",
-    "Briefings/12.09.2024 - Kimon.md",
+    "JavaScript/React/Introduction to JSX.md",
     "Briefings/Briefings.md",
-    "JS/ES6.md",
-    "JS/JS Fundamentals Group Discussion.md",
-    "Code and Design/Figma workshop.md",
-    "JS Fundamentals Group Discussion cbbd468ffc244924974062e3ce1eebcf/Mental models sessions 4cc491678316459c85256bccd11e656e.md",
+    "Git & Github/git-QA.md",
+    "JavaScript/JS/Asynchronous Programming.md",
+    "JavaScript/JS/Mental Mode.md",
+    "Git & Github/Git & GitHub.md",
+    "JavaScript/JS/Projects/blogApp.md",
+    "JavaScript/React",
+    "JavaScript/JS/Projects/Projects.md",
+    "JavaScript/JS/Projects",
+    "blogApp-using react/next/grapQL",
+    "blogApp-using react/next",
+    "blogApp-using react",
+    "JavaScript/JS/asyncvsparal.md",
+    "JavaScript/JS/event-message-driven.md",
+    "JavaScript/JS/fetchAPI.md",
+    "End Of Day/meetigns.md",
+    "JavaScript/JS/Kata.md",
+    "Briefings/Exercises and Schedule.md",
+    "CSS/bars.png.md",
+    "CSS/CSS.md",
+    "English/English.md",
+    "Briefings/Team Work Ojemba Website.md",
+    "Retrospective/Feedback.md",
+    "JavaScript/JS/trade-off-asyc-.md",
+    "Pasted image 20230915164624.png",
+    "JavaScript/JS/challenge-scalable-event-driven-system.md",
     "JS Fundamentals Group Discussion cbbd468ffc244924974062e3ce1eebcf",
-    "Pasted image 20230908173540.png.md",
-    "Retrospective 644c8495de4e4592a6f99c6f06627782/Team Work Ojemba Website.md",
     "GraphQL",
     "Retrospective 644c8495de4e4592a6f99c6f06627782",
     "End Of Day",
-    "Retrospective",
-    "Self Reflection 72b73042646b400a813b1617430dfe04",
     "stu-illustration.png",
-    "The Gym cd4d2cc4568c48e6a832b762d5a66095",
     "joanna-kosinska-669797-unsplash.jpg",
     "jakob-owens-209001-unsplash.jpg",
     "florencia-potter-699220-unsplash.jpg",
-    "Git & Github",
     "daniel-corneschi-627754-unsplash.jpg",
-    "Coding Learning Notes",
-    "Code and Design",
     "biel-morro-458184-unsplash.jpg",
     "aranxa-esteve-130752-unsplash.jpg",
     "elena-koycheva-1054933-unsplash.jpg",

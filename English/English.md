@@ -94,4 +94,7 @@ Words to be added to Anki
 - geezer ==a great guy
 - lairy ==someone who is very loud/ aggressive
 -  bog standard ==plain or normal
-- 
+
+---
+
+![[Receiving Feedback]]

@@ -142,4 +142,10 @@ body{
 }
 ```
 **Preview**
-![[bars.png]]
+![[/bars.png]]
+
+---
+![[CSS Animation]]
+
+![[Tailwindcss]]
+
