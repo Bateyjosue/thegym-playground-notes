@@ -279,5 +279,5 @@ ___
 ---
 ## Mental Model
 
-![[Mental Model]]
+![[JavaScript/TS/Mental Model]]
 ___
