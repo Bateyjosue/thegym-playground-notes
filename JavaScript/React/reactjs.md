@@ -22,6 +22,7 @@ React State
 
 ## Forms
 ![[form]]
+<<<<<<< HEAD
 ![[react-router]]
 
 ![[search parameter]]
@@ -34,3 +35,8 @@ React State
 # Mental Modal
 --- 
 [[Mental Modal]]
+=======
+
+## Mental Model
+![[JavaScript/React/Mental Model|Mental Model]]
+>>>>>>> fa1221cbf65fadac106584ae4afa802273e18c8a

@@ -20,7 +20,23 @@
             }
           },
           {
+<<<<<<< HEAD
             "id": "edaecee1651fc795",
+=======
+            "id": "964a8a06a9688d7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/React/Mental Model.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1180c895fbda8e70",
+>>>>>>> fa1221cbf65fadac106584ae4afa802273e18c8a
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -100,7 +116,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "JavaScript/React/Mental Modal.md",
+=======
+                "file": "JavaScript/React/Mental Model.md",
+>>>>>>> fa1221cbf65fadac106584ae4afa802273e18c8a
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +137,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "JavaScript/React/Mental Modal.md",
+=======
+                "file": "JavaScript/React/Mental Model.md",
+>>>>>>> fa1221cbf65fadac106584ae4afa802273e18c8a
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +164,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "JavaScript/React/Mental Modal.md"
+=======
+                "file": "JavaScript/React/Mental Model.md"
+>>>>>>> fa1221cbf65fadac106584ae4afa802273e18c8a
               }
             }
           },
@@ -188,6 +216,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
+<<<<<<< HEAD
   "active": "edaecee1651fc795",
   "lastOpenFiles": [
     "JavaScript/React/react-router.md",
@@ -221,6 +250,38 @@
     "Retrospective/Self Evaluation.md",
     "Professional Skills",
     "Briefings/1&1",
+=======
+  "active": "964a8a06a9688d7b",
+  "lastOpenFiles": [
+    "JavaScript/React/reactjs.md",
+    "JavaScript/React/Untitled.md",
+    "JavaScript/React/Mental Model.md",
+    "JavaScript/React/form.md",
+    "JavaScript/React/Controlled Components.md",
+    "JavaScript/React/condition rendering.md",
+    "Retrospective/Self Evaluation.md",
+    "Retrospective/Feedback.md",
+    "JavaScript/React/state.md",
+    "Retrospective/Clédia.md",
+    "JavaScript/React/props.md",
+    "Professional Skills/Naming Convention.md",
+    "Professional Skills/Code Quality.md",
+    "Professional Skills/Best Practices.md",
+    "JavaScript/React/Introduction to JSX.md",
+    "JavaScript/React/component.md",
+    "Professional Skills",
+    "Retrospective/Project.md",
+    "Briefings/1&1/21.09.2023.md",
+    "Retrospective/mypassion.md",
+    "Briefings/1&1",
+    "Retrospective/Articles.md",
+    "Retrospective/Retrospective.md",
+    "Briefings/Briefings.md",
+    "Git & Github/git-QA.md",
+    "JavaScript/JS/Asynchronous Programming.md",
+    "JavaScript/JS/Mental Mode.md",
+    "Git & Github/Git & GitHub.md",
+>>>>>>> fa1221cbf65fadac106584ae4afa802273e18c8a
     "JavaScript/React",
     "JavaScript/JS/Projects",
     "blogApp-using react/next/grapQL",
