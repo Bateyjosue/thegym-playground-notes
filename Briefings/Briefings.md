@@ -7,3 +7,8 @@
 [[By Date]]
 [[1&1 with Coach]]
 [[Exercises and Schedule]]
+[[2023.09.21]]
+[[2023.09.27]]
+[[2023.09.30]]
+[[meeting with visitors]]
+[[2023-10-04]]
