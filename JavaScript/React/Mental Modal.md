@@ -16,4 +16,17 @@
 5. what are loaders in react router?
 6. what the use `*` in react router?
 7. what is the `index` keyword useful
-8. 
+
+## 2023.11.24
+
+1. Is there any other library for working with routers rather than react-router-don
+2. Single page application
+3. server side and client side rendering
+4. prop drilling
+5. what is context in state management
+6. what is diffing and reconciliation in react while using virtual DOM
+7. why re-render the part on the component which has been updated
+8. what is HOC high Order Component
+9. what is children property in react
+10. the role of `useEffect` in react
+11. 

@@ -31,3 +31,11 @@
 4. what are rules for using hooks?
 5. why do we need `useEffect()`
 6. what are the arguments that can be passed to the `useState()`
+
+---
+# [10.27.2023]
+___
+
+how loader work?
+
+`Link` and `a`
