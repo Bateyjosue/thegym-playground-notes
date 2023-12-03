@@ -1,7 +1,9 @@
-1. Apply Early Returns
-in the case that you checking for the user, and you want to know if a user in admin or not, before checking of a user is whether admin or not use early return to check if first of the user exist.
-2. Utilize Array Methods and Higher-Order Functions
+1. **Apply Early Returns**
+in the case that you checking for the user, and you want to know if a user in admin or not, before checking of a user is whether admin or not use ==early return== to check if first of the user exist.
+
+2. **Utilize Array Methods and Higher-Order Functions**
 the point here is to the readability and the expressivity of code, this can reduce the number of lines and decrease nested blocks
+
 3. Splitting Long Lines
 4. Use Unicorn Linter 
 5. Extract Reusable Code

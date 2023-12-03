@@ -9,4 +9,4 @@
 5. HTML id attribute: `kebab-case`
 6. constants and ENV variables: `UPPER_SNAKE_CASE`
 	Example: `MAX_NUM_OF_RETRIES`
-1. Enums names: `PascalCase`
+7. Enums names: `PascalCase`
