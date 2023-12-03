@@ -22,3 +22,6 @@ React State
 
 ## Forms
 ![[form]]
+
+## Mental Model
+![[JavaScript/React/Mental Model|Mental Model]]
