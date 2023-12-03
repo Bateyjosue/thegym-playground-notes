@@ -1,7 +1,3 @@
 {
-  "newFileLocation": "current",
-  "promptDelete": false,
-  "livePreview": true,
-  "defaultViewMode": "source",
-  "alwaysUpdateLinks": true
+  "focusNewTab": false
 }

@@ -1,29 +1,26 @@
 {
   "main": {
-    "id": "5848f6551054b36b",
+    "id": "b04d595ed570ae0f",
     "type": "split",
     "children": [
       {
-        "id": "7046bff38f1503c4",
+        "id": "b6b0793d674ae7bd",
         "type": "tabs",
         "children": [
           {
-            "id": "fae4e2b5ff8fdc48",
+            "id": "9fb6d62d390bee4f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/React/react-router.md",
+                "file": "JavaScript/Interview Preps.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-<<<<<<< HEAD
-            "id": "edaecee1651fc795",
-=======
-            "id": "964a8a06a9688d7b",
+            "id": "fb526db54b56d8df",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -35,34 +32,45 @@
             }
           },
           {
-            "id": "1180c895fbda8e70",
->>>>>>> fa1221cbf65fadac106584ae4afa802273e18c8a
+            "id": "3b3daca281f069eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/React/Mental Modal.md",
+                "file": "JavaScript/Nestjs/nestjs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1b6d72578d68dbee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/Nestjs/Introduction.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "9b17044b44f81277",
+    "id": "5f828e6113cc047f",
     "type": "split",
     "children": [
       {
-        "id": "95c9b7a39a8e807e",
+        "id": "e70bde42af28cda7",
         "type": "tabs",
         "children": [
           {
-            "id": "a0208bd339940377",
+            "id": "8c5dcb841411d815",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -72,7 +80,7 @@
             }
           },
           {
-            "id": "9b63e6063f3e61d3",
+            "id": "e34e75e637df7f5c",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -87,68 +95,58 @@
             }
           },
           {
-            "id": "7ee73c52ceb2af0a",
+            "id": "c9b1f525d12470b0",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
-    "id": "15a0fcf7dc1ddb15",
+    "id": "fd0dfcc9b3566824",
     "type": "split",
     "children": [
       {
-        "id": "7c4ff95c725b9d67",
+        "id": "8e8938b619e881e2",
         "type": "tabs",
         "children": [
           {
-            "id": "4de593541c762be9",
+            "id": "0f3f5d4d81379374",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "JavaScript/React/Mental Modal.md",
-=======
-                "file": "JavaScript/React/Mental Model.md",
->>>>>>> fa1221cbf65fadac106584ae4afa802273e18c8a
+                "file": "JavaScript/Nestjs/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "54b39c6205c27050",
+            "id": "0d81cbe26bed4c62",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "JavaScript/React/Mental Modal.md",
-=======
-                "file": "JavaScript/React/Mental Model.md",
->>>>>>> fa1221cbf65fadac106584ae4afa802273e18c8a
+                "file": "JavaScript/Nestjs/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "e7e08b2c3e5e2930",
+            "id": "8134578adc5cc07b",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -159,43 +157,20 @@
             }
           },
           {
-            "id": "df6bc85c8f2a1f65",
+            "id": "25094d7b89eb4b67",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD
-                "file": "JavaScript/React/Mental Modal.md"
-=======
-                "file": "JavaScript/React/Mental Model.md"
->>>>>>> fa1221cbf65fadac106584ae4afa802273e18c8a
-              }
-            }
-          },
-          {
-            "id": "98c69215630eb6ed",
-            "type": "leaf",
-            "state": {
-              "type": "code-execute-manage-executors",
-              "state": {}
-            }
-          },
-          {
-            "id": "3659c8bdec6bed83",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency"
+                "file": "JavaScript/Nestjs/Introduction.md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
@@ -205,99 +180,52 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "workspaces:Manage workspace layouts": false,
-      "zk-prefixer:Create new unique note": false,
-      "publish:Publish changes...": false,
-      "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "flashcards-obsidian:Generate flashcards": false,
-      "obsidian-statusbar-pomo:Start pomodoro": false,
-      "obsidian-importer:Open Importer": false
+      "command-palette:Open command palette": false
     }
   },
-<<<<<<< HEAD
-  "active": "edaecee1651fc795",
+  "active": "1b6d72578d68dbee",
   "lastOpenFiles": [
-    "JavaScript/React/react-router.md",
-    "JavaScript/React/Mental Modal.md",
-    "JavaScript/React/reactjs.md",
-    "202310131041.md",
-    "JavaScript/React/Actions and protected routes.md",
-    "JavaScript/React/search parameter.md",
-    "JavaScript/React/loaders.md",
-    "JavaScript/React/Nested Routes.md",
-    "JavaScript/React/Note App.md",
-    "Briefings/2023-10-10.md",
-    "Code and Design/UI-UX design workshop.md",
-    "Professional Skills/Code Quality.md",
-    "Professional Skills/Best Practices.md",
-    "JavaScript/React/Controlled Components.md",
-    "SPAs.png",
-    "SPA1.png",
-    "Screenshot 2023-10-02 124140.png",
-    "Code and Design/Moni Share.md",
-    "Briefings/2023-10-04.md",
-    "Briefings/Briefings.md",
-    "Briefings/meeting with visitors.md",
-    "Retrospective/Feedback.md",
-    "Briefings/2023.09.30.md",
-    "Briefings/2023.09.14.md",
-    "Briefings/2023.09.19.md",
-    "Briefings/2023.09.21.md",
-    "Briefings/2023.09.27.md",
-    "Retrospective/Clédia.md",
-    "Retrospective/Self Evaluation.md",
-    "Professional Skills",
-    "Briefings/1&1",
-=======
-  "active": "964a8a06a9688d7b",
-  "lastOpenFiles": [
-    "JavaScript/React/reactjs.md",
-    "JavaScript/React/Untitled.md",
+    "JavaScript/Nestjs/nestjs.md",
+    "JavaScript/Nestjs/Introduction.md",
+    "Introduction.md",
+    "JavaScript/TS/Mental Model.md",
+    "JavaScript/Nestjs",
+    "JavaScript/TS.md",
     "JavaScript/React/Mental Model.md",
-    "JavaScript/React/form.md",
-    "JavaScript/React/Controlled Components.md",
-    "JavaScript/React/condition rendering.md",
-    "Retrospective/Self Evaluation.md",
-    "Retrospective/Feedback.md",
-    "JavaScript/React/state.md",
-    "Retrospective/Clédia.md",
-    "JavaScript/React/props.md",
-    "Professional Skills/Naming Convention.md",
-    "Professional Skills/Code Quality.md",
-    "Professional Skills/Best Practices.md",
-    "JavaScript/React/Introduction to JSX.md",
-    "JavaScript/React/component.md",
-    "Professional Skills",
-    "Retrospective/Project.md",
-    "Briefings/1&1/21.09.2023.md",
-    "Retrospective/mypassion.md",
-    "Briefings/1&1",
-    "Retrospective/Articles.md",
-    "Retrospective/Retrospective.md",
-    "Briefings/Briefings.md",
-    "Git & Github/git-QA.md",
+    "JavaScript/Interview Preps.md",
+    "ternary.png",
+    "JavaScript/JS/Bind-call-apply.md",
+    "JavaScript/React/Mental Modal.md",
+    "JavaScript/Node/index.js.md",
     "JavaScript/JS/Asynchronous Programming.md",
-    "JavaScript/JS/Mental Mode.md",
-    "Git & Github/Git & GitHub.md",
->>>>>>> fa1221cbf65fadac106584ae4afa802273e18c8a
-    "JavaScript/React",
-    "JavaScript/JS/Projects",
-    "blogApp-using react/next/grapQL",
-    "blogApp-using react/next",
-    "blogApp-using react",
-    "Pasted image 20230915164624.png",
-    "JS Fundamentals Group Discussion cbbd468ffc244924974062e3ce1eebcf",
-    "GraphQL",
-    "Retrospective 644c8495de4e4592a6f99c6f06627782",
-    "stu-illustration.png",
-    "joanna-kosinska-669797-unsplash.jpg",
-    "jakob-owens-209001-unsplash.jpg",
-    "florencia-potter-699220-unsplash.jpg",
-    "daniel-corneschi-627754-unsplash.jpg",
-    "biel-morro-458184-unsplash.jpg",
-    "JS/TS/Articles/Untitled.canvas",
-    "Untitled.canvas"
+    "JavaScript/JS/Anki.md",
+    "JavaScript/Node/Intro.md",
+    "JavaScript/State Management/Mental Model.md",
+    "Briefings/2023-11-17 kimon.md",
+    "JavaScript/Node",
+    "JavaScript/State Management/Redux/redux.md",
+    "2023-11-16 - 1on1-with.md",
+    "Projects/Meta Spark AR/Main Note.md",
+    "Briefings/2023-11-08-with-George.md",
+    "Other Course/Gen AI/Introduction to generative AI.md",
+    "ANN.png",
+    "Gen Ml.png",
+    "unsupervised.png",
+    "supervised.png",
+    "ml.png",
+    "Other Course/Gen AI/generative AI.md",
+    "Other Course/Gen AI",
+    "Other Course",
+    "Projects/Meta Spark AR",
+    "JavaScript/State Management/ContextAPI/contextAPI.md",
+    "Projects/Moni Share/Code reviews feedback sharing.md",
+    "Projects/Moni Share/QA Review.md",
+    "Projects/Moni Share/Final Review.md",
+    "Projects/Moni Share/Mid Review - Sprint 1.md",
+    "JavaScript/State Management/ContextAPI",
+    "JavaScript/State Management/Redux",
+    "JavaScript/State Management",
+    "Projects/Restaurent",
+    "Daily"
   ]
 }
