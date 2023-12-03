@@ -1,0 +1,303 @@
+{
+  "main": {
+    "id": "5848f6551054b36b",
+    "type": "split",
+    "children": [
+      {
+        "id": "7046bff38f1503c4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fae4e2b5ff8fdc48",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/React/react-router.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+<<<<<<< HEAD
+            "id": "edaecee1651fc795",
+=======
+            "id": "964a8a06a9688d7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/React/Mental Model.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1180c895fbda8e70",
+>>>>>>> fa1221cbf65fadac106584ae4afa802273e18c8a
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/React/Mental Modal.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9b17044b44f81277",
+    "type": "split",
+    "children": [
+      {
+        "id": "95c9b7a39a8e807e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a0208bd339940377",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9b63e6063f3e61d3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7ee73c52ceb2af0a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "right": {
+    "id": "15a0fcf7dc1ddb15",
+    "type": "split",
+    "children": [
+      {
+        "id": "7c4ff95c725b9d67",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4de593541c762be9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+<<<<<<< HEAD
+                "file": "JavaScript/React/Mental Modal.md",
+=======
+                "file": "JavaScript/React/Mental Model.md",
+>>>>>>> fa1221cbf65fadac106584ae4afa802273e18c8a
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "54b39c6205c27050",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+<<<<<<< HEAD
+                "file": "JavaScript/React/Mental Modal.md",
+=======
+                "file": "JavaScript/React/Mental Model.md",
+>>>>>>> fa1221cbf65fadac106584ae4afa802273e18c8a
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e7e08b2c3e5e2930",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "df6bc85c8f2a1f65",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+<<<<<<< HEAD
+                "file": "JavaScript/React/Mental Modal.md"
+=======
+                "file": "JavaScript/React/Mental Model.md"
+>>>>>>> fa1221cbf65fadac106584ae4afa802273e18c8a
+              }
+            }
+          },
+          {
+            "id": "98c69215630eb6ed",
+            "type": "leaf",
+            "state": {
+              "type": "code-execute-manage-executors",
+              "state": {}
+            }
+          },
+          {
+            "id": "3659c8bdec6bed83",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
+      "zk-prefixer:Create new unique note": false,
+      "publish:Publish changes...": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "flashcards-obsidian:Generate flashcards": false,
+      "obsidian-statusbar-pomo:Start pomodoro": false,
+      "obsidian-importer:Open Importer": false
+    }
+  },
+<<<<<<< HEAD
+  "active": "edaecee1651fc795",
+  "lastOpenFiles": [
+    "JavaScript/React/react-router.md",
+    "JavaScript/React/Mental Modal.md",
+    "JavaScript/React/reactjs.md",
+    "202310131041.md",
+    "JavaScript/React/Actions and protected routes.md",
+    "JavaScript/React/search parameter.md",
+    "JavaScript/React/loaders.md",
+    "JavaScript/React/Nested Routes.md",
+    "JavaScript/React/Note App.md",
+    "Briefings/2023-10-10.md",
+    "Code and Design/UI-UX design workshop.md",
+    "Professional Skills/Code Quality.md",
+    "Professional Skills/Best Practices.md",
+    "JavaScript/React/Controlled Components.md",
+    "SPAs.png",
+    "SPA1.png",
+    "Screenshot 2023-10-02 124140.png",
+    "Code and Design/Moni Share.md",
+    "Briefings/2023-10-04.md",
+    "Briefings/Briefings.md",
+    "Briefings/meeting with visitors.md",
+    "Retrospective/Feedback.md",
+    "Briefings/2023.09.30.md",
+    "Briefings/2023.09.14.md",
+    "Briefings/2023.09.19.md",
+    "Briefings/2023.09.21.md",
+    "Briefings/2023.09.27.md",
+    "Retrospective/Clédia.md",
+    "Retrospective/Self Evaluation.md",
+    "Professional Skills",
+    "Briefings/1&1",
+=======
+  "active": "964a8a06a9688d7b",
+  "lastOpenFiles": [
+    "JavaScript/React/reactjs.md",
+    "JavaScript/React/Untitled.md",
+    "JavaScript/React/Mental Model.md",
+    "JavaScript/React/form.md",
+    "JavaScript/React/Controlled Components.md",
+    "JavaScript/React/condition rendering.md",
+    "Retrospective/Self Evaluation.md",
+    "Retrospective/Feedback.md",
+    "JavaScript/React/state.md",
+    "Retrospective/Clédia.md",
+    "JavaScript/React/props.md",
+    "Professional Skills/Naming Convention.md",
+    "Professional Skills/Code Quality.md",
+    "Professional Skills/Best Practices.md",
+    "JavaScript/React/Introduction to JSX.md",
+    "JavaScript/React/component.md",
+    "Professional Skills",
+    "Retrospective/Project.md",
+    "Briefings/1&1/21.09.2023.md",
+    "Retrospective/mypassion.md",
+    "Briefings/1&1",
+    "Retrospective/Articles.md",
+    "Retrospective/Retrospective.md",
+    "Briefings/Briefings.md",
+    "Git & Github/git-QA.md",
+    "JavaScript/JS/Asynchronous Programming.md",
+    "JavaScript/JS/Mental Mode.md",
+    "Git & Github/Git & GitHub.md",
+>>>>>>> fa1221cbf65fadac106584ae4afa802273e18c8a
+    "JavaScript/React",
+    "JavaScript/JS/Projects",
+    "blogApp-using react/next/grapQL",
+    "blogApp-using react/next",
+    "blogApp-using react",
+    "Pasted image 20230915164624.png",
+    "JS Fundamentals Group Discussion cbbd468ffc244924974062e3ce1eebcf",
+    "GraphQL",
+    "Retrospective 644c8495de4e4592a6f99c6f06627782",
+    "stu-illustration.png",
+    "joanna-kosinska-669797-unsplash.jpg",
+    "jakob-owens-209001-unsplash.jpg",
+    "florencia-potter-699220-unsplash.jpg",
+    "daniel-corneschi-627754-unsplash.jpg",
+    "biel-morro-458184-unsplash.jpg",
+    "JS/TS/Articles/Untitled.canvas",
+    "Untitled.canvas"
+  ]
+}
