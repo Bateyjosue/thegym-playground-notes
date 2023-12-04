@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Nestjs/Introduction.md",
+                "file": "Briefings/2023-12-04 with Yannick.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/Nestjs/Introduction.md",
+                "file": "Briefings/2023-12-04 with Yannick.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/Nestjs/Introduction.md",
+                "file": "Briefings/2023-12-04 with Yannick.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/Nestjs/Introduction.md"
+                "file": "Briefings/2023-12-04 with Yannick.md"
               }
             }
           }
@@ -185,8 +185,14 @@
   },
   "active": "1b6d72578d68dbee",
   "lastOpenFiles": [
-    "JavaScript/Nestjs/nestjs.md",
+    "JavaScript/Nestjs/API.md",
+    "Briefings/2023-12-04 with Yannick.md",
+    "Untitled.canvas",
+    "api.png",
+    "api.avif",
     "JavaScript/Nestjs/Introduction.md",
+    "JavaScript/key-takeaway-writing.md",
+    "JavaScript/Nestjs/nestjs.md",
     "Introduction.md",
     "JavaScript/TS/Mental Model.md",
     "JavaScript/Nestjs",
@@ -219,13 +225,9 @@
     "Projects/Meta Spark AR",
     "JavaScript/State Management/ContextAPI/contextAPI.md",
     "Projects/Moni Share/Code reviews feedback sharing.md",
-    "Projects/Moni Share/QA Review.md",
-    "Projects/Moni Share/Final Review.md",
-    "Projects/Moni Share/Mid Review - Sprint 1.md",
     "JavaScript/State Management/ContextAPI",
     "JavaScript/State Management/Redux",
     "JavaScript/State Management",
-    "Projects/Restaurent",
-    "Daily"
+    "Projects/Restaurent"
   ]
 }
