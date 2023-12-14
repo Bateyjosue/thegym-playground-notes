@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/React/Mental Model.md",
+                "file": "automated-testing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4ac5e3026f07c874",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dependency injection.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Nestjs/nestjs.md",
+                "file": "JavaScript/Nestjs/Project/Todo api/todo.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,14 +61,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Briefings/2023-12-04 with Yannick.md",
+                "file": "automated-testing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "834229975ccdb8d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/Tutorials Plan/Plan.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "42311d2142bd287a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Moni Share/QA Review.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -102,11 +138,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "fd0dfcc9b3566824",
@@ -122,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Briefings/2023-12-04 with Yannick.md",
+                "file": "JavaScript/Tutorials Plan/Plan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Briefings/2023-12-04 with Yannick.md",
+                "file": "JavaScript/Tutorials Plan/Plan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +200,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Briefings/2023-12-04 with Yannick.md"
+                "file": "JavaScript/Tutorials Plan/Plan.md"
+              }
+            }
+          },
+          {
+            "id": "768e0b6ddcf46709",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
@@ -180,54 +228,64 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "markdown-importer:Open format converter": false,
+      "publish:Publish changes...": false,
+      "random-note:Open random note": false,
+      "zk-prefixer:Create new unique note": false,
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "1b6d72578d68dbee",
+  "active": "834229975ccdb8d3",
   "lastOpenFiles": [
-    "JavaScript/Nestjs/API.md",
+    "Projects/Moni Share/QA Review.md",
+    "architecture.png",
+    "Code and Design/Moni Share.md",
+    "JavaScript/key-takeaway-writing.md",
+    "automated-testing.md",
+    "dependency injection.md",
+    "JavaScript/Nestjs/nestjs.md",
+    "Untitled.md",
+    "JavaScript/Tutorials Plan/Plan.md",
+    "guards.png",
+    "JavaScript/Interview Preps.md",
+    "JavaScript/Tutorials Plan/Plans.md",
+    "JavaScript/Tutorials Plan/index.js",
+    "JavaScript/Nestjs/Introduction.md",
+    "JavaScript/Nestjs/Project/Todo api/todo.md",
+    "JavaScript/Nestjs/Project/Todo api",
+    "JavaScript/Nestjs/Project",
+    "JavaScript/Tutorials Plan",
+    "202312070946.md",
+    "GraphQL/Queries and Mutations.md",
+    "JavaScript/JS/challenge-scalable-event-driven-system.md",
+    "Briefings/Team Work Ojemba Website.md",
+    "JavaScript/React/Mental Model.md",
+    "JavaScript/Nestjs/Controllers.md",
+    "controller.png",
     "Briefings/2023-12-04 with Yannick.md",
+    "JavaScript/Nestjs/API.md",
     "Untitled.canvas",
     "api.png",
     "api.avif",
-    "JavaScript/Nestjs/Introduction.md",
-    "JavaScript/key-takeaway-writing.md",
-    "JavaScript/Nestjs/nestjs.md",
     "Introduction.md",
     "JavaScript/TS/Mental Model.md",
     "JavaScript/Nestjs",
     "JavaScript/TS.md",
-    "JavaScript/React/Mental Model.md",
-    "JavaScript/Interview Preps.md",
     "ternary.png",
     "JavaScript/JS/Bind-call-apply.md",
     "JavaScript/React/Mental Modal.md",
     "JavaScript/Node/index.js.md",
-    "JavaScript/JS/Asynchronous Programming.md",
-    "JavaScript/JS/Anki.md",
-    "JavaScript/Node/Intro.md",
-    "JavaScript/State Management/Mental Model.md",
-    "Briefings/2023-11-17 kimon.md",
     "JavaScript/Node",
-    "JavaScript/State Management/Redux/redux.md",
-    "2023-11-16 - 1on1-with.md",
-    "Projects/Meta Spark AR/Main Note.md",
-    "Briefings/2023-11-08-with-George.md",
-    "Other Course/Gen AI/Introduction to generative AI.md",
     "ANN.png",
     "Gen Ml.png",
     "unsupervised.png",
     "supervised.png",
     "ml.png",
-    "Other Course/Gen AI/generative AI.md",
     "Other Course/Gen AI",
     "Other Course",
-    "Projects/Meta Spark AR",
-    "JavaScript/State Management/ContextAPI/contextAPI.md",
-    "Projects/Moni Share/Code reviews feedback sharing.md",
-    "JavaScript/State Management/ContextAPI",
-    "JavaScript/State Management/Redux",
-    "JavaScript/State Management",
-    "Projects/Restaurent"
+    "Projects/Meta Spark AR"
   ]
 }
