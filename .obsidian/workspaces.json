@@ -1,0 +1,220 @@
+{
+  "workspaces": {
+    "Code": {
+      "main": {
+        "id": "b04d595ed570ae0f",
+        "type": "split",
+        "children": [
+          {
+            "id": "b6b0793d674ae7bd",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "9fb6d62d390bee4f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "JavaScript/Interview Preps.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "fb526db54b56d8df",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "JavaScript/Nestjs/nestjs.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "3b3daca281f069eb",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "JavaScript/Nestjs/nestjs.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "1b6d72578d68dbee",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "dependency injection.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "834229975ccdb8d3",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "JavaScript/key-takeaway-writing.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "currentTab": 4
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "5f828e6113cc047f",
+        "type": "split",
+        "children": [
+          {
+            "id": "e70bde42af28cda7",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "8c5dcb841411d815",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "e34e75e637df7f5c",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "c9b1f525d12470b0",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 200
+      },
+      "right": {
+        "id": "fd0dfcc9b3566824",
+        "type": "split",
+        "children": [
+          {
+            "id": "8e8938b619e881e2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "0f3f5d4d81379374",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "JavaScript/key-takeaway-writing.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "0d81cbe26bed4c62",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "JavaScript/key-takeaway-writing.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "8134578adc5cc07b",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "25094d7b89eb4b67",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "JavaScript/key-takeaway-writing.md"
+                  }
+                }
+              },
+              {
+                "id": "768e0b6ddcf46709",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "audio-recorder:Start/stop recording": false,
+          "markdown-importer:Open format converter": false,
+          "publish:Publish changes...": false,
+          "random-note:Open random note": false,
+          "zk-prefixer:Create new unique note": false,
+          "workspaces:Manage workspace layouts": false
+        }
+      },
+      "active": "834229975ccdb8d3"
+    }
+  },
+  "active": "Code"
+}
