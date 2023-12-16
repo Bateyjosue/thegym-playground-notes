@@ -78,6 +78,8 @@ let newString = immutableString + ' World'; // Creates a new string
 
 ## 2nd Series
 ----
+
+### Introduction
 ### Dynamic Typing
 1. **Dynamic Typing:**
 ```js
