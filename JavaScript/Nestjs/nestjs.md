@@ -95,4 +95,9 @@ SQL is used to create, modify, and delete databases, while MySQL is used to stor
 9. is server hardware or software? both physic or soft
 10. what is the decorators @POST, @GET, and @PUT
 11. business logic and data access logic
-12. 
+12. invasion of controller: 
+13. what are module: Modules are **containers for different parts of an application, such as controllers, services, and other related components**. They serve as a way to organize and encapsulate the functionality of an application.
+14. differentiate service from providers
+
+- dependencies injection container (repositories, services)
+- 
