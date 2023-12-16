@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Interview Preps.md",
+                "file": "JavaScript/Nestjs/nestjs.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dependency injection.md",
+                "file": "reame.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "11d24b7948465492",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/React/Controlled Components.md",
                 "mode": "source",
                 "source": false
               }
@@ -91,8 +103,7 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -160,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/Tutorials Plan/Plan.md",
+                "file": "JavaScript/Nestjs/nestjs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/Tutorials Plan/Plan.md",
+                "file": "JavaScript/Nestjs/nestjs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/Tutorials Plan/Plan.md"
+                "file": "JavaScript/Nestjs/nestjs.md"
               }
             }
           },
@@ -238,23 +249,24 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "834229975ccdb8d3",
+  "active": "9fb6d62d390bee4f",
   "lastOpenFiles": [
     "Projects/Moni Share/QA Review.md",
+    "JavaScript/Nestjs/nestjs.md",
+    "JavaScript/Interview Preps.md",
+    "automated-testing.md",
+    "JavaScript/Tutorials Plan/Plan.md",
+    "reame.md",
+    "dependency injection.md",
+    "JavaScript/Nestjs/Project/Todo api/todo.md",
     "architecture.png",
     "Code and Design/Moni Share.md",
     "JavaScript/key-takeaway-writing.md",
-    "automated-testing.md",
-    "dependency injection.md",
-    "JavaScript/Nestjs/nestjs.md",
     "Untitled.md",
-    "JavaScript/Tutorials Plan/Plan.md",
     "guards.png",
-    "JavaScript/Interview Preps.md",
     "JavaScript/Tutorials Plan/Plans.md",
     "JavaScript/Tutorials Plan/index.js",
     "JavaScript/Nestjs/Introduction.md",
-    "JavaScript/Nestjs/Project/Todo api/todo.md",
     "JavaScript/Nestjs/Project/Todo api",
     "JavaScript/Nestjs/Project",
     "JavaScript/Tutorials Plan",
@@ -277,7 +289,6 @@
     "ternary.png",
     "JavaScript/JS/Bind-call-apply.md",
     "JavaScript/React/Mental Modal.md",
-    "JavaScript/Node/index.js.md",
     "JavaScript/Node",
     "ANN.png",
     "Gen Ml.png",

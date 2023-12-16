@@ -82,7 +82,7 @@ data container VS DTO? in this architecture they have the same structure
 data container =  
 DTO = 
 
-> Baren file is use to export all the module in a specific folder structure to reduce the multiple imports
+> Barrel exports file is use to export all the module in a specific folder structure to reduce the multiple imports
 
 
 ---

@@ -115,3 +115,5 @@ export class ExampleService implements OnModuleInit {
 ## Conclusion
 
 **NestJS leverages Dependency Injection to manage the instantiation and injection of components within the application. This promotes a modular and maintainable code structure by allowing components to focus on their specific responsibilities and rely on external dependencies through a straightforward and consistent mechanism**
+
+![[reame]]
