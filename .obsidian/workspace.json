@@ -20,12 +20,24 @@
             }
           },
           {
+            "id": "8fe702bf38da93ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/React/state.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "fb526db54b56d8df",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "automated-testing.md",
+                "file": "Briefings/12-20-2023 - George.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Nestjs/Project/Todo api/todo.md",
+                "file": "JavaScript/Tutorials Plan/Plan.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,19 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "automated-testing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "834229975ccdb8d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JavaScript/Tutorials Plan/Plan.md",
+                "file": "JavaScript/Tutorials Plan/date/The Magic of data types in JavaScript.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,8 +102,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "52a4edd8dc64fe09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/key-takeaway-writing.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -149,8 +162,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -171,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/Nestjs/nestjs.md",
+                "file": "JavaScript/key-takeaway-writing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/Nestjs/nestjs.md",
+                "file": "JavaScript/key-takeaway-writing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/Nestjs/nestjs.md"
+                "file": "JavaScript/key-takeaway-writing.md"
               }
             }
           },
@@ -221,7 +233,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -249,54 +263,54 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "9fb6d62d390bee4f",
+  "active": "52a4edd8dc64fe09",
   "lastOpenFiles": [
-    "Projects/Moni Share/QA Review.md",
-    "JavaScript/Nestjs/nestjs.md",
-    "JavaScript/Interview Preps.md",
-    "automated-testing.md",
     "JavaScript/Tutorials Plan/Plan.md",
-    "reame.md",
-    "dependency injection.md",
-    "JavaScript/Nestjs/Project/Todo api/todo.md",
-    "architecture.png",
-    "Code and Design/Moni Share.md",
+    "JavaScript/Nestjs/nestjs.md",
+    "JavaScript/React/state.md",
     "JavaScript/key-takeaway-writing.md",
-    "Untitled.md",
-    "guards.png",
     "JavaScript/Tutorials Plan/Plans.md",
-    "JavaScript/Tutorials Plan/index.js",
+    "Pasted image 20240126103517.png",
+    "English/Prompt.md",
+    "Projects/Moni Share/QA Review.md",
+    "Professional Skills/Interview Preps/tricks.md",
+    "Professional Skills/Interview Preps",
+    "JavaScript/React/Mental Model.md",
+    "JavaScript/React/Note App.md",
+    "JavaScript/React/component.md",
     "JavaScript/Nestjs/Introduction.md",
+    "custom-types-thumbnail.webp",
+    "JavaScript/TS/TypeScript.md",
+    "JavaScript/Nestjs/Controllers.md",
+    "JavaScript/Nestjs/API.md",
+    "JavaScript/JS/Mental Mode.md",
+    "JavaScript/JS/JavaScript.md",
+    "JavaScript/Solidjs/Introduction.md",
+    "JavaScript/Nestjs/Project/Moni share/Sprint 4- Reviews.md",
+    "JavaScript/Solidjs",
+    "dupli.png",
+    "JavaScript/Nestjs/Project/Moni share",
+    "Untitled 1.md",
+    "Briefings/12-20-2023 - George.md",
+    "automated-testing.md",
+    "Images/providers.png",
+    "Images/client-server-architecture.png.webp",
+    "Images",
+    "Pasted image 20231218083447.jpg",
+    "JavaScript/Tutorials Plan/date/The Magic of data types in JavaScript.md",
+    "JavaScript/Nestjs/Project/Todo api/todo.md",
+    "JavaScript/Tutorials Plan/date",
+    "Untitled 1.canvas",
+    "JavaScript/Interview Preps.md",
+    "architecture.png",
+    "guards.png",
+    "JavaScript/Tutorials Plan/index.js",
     "JavaScript/Nestjs/Project/Todo api",
     "JavaScript/Nestjs/Project",
     "JavaScript/Tutorials Plan",
-    "202312070946.md",
-    "GraphQL/Queries and Mutations.md",
-    "JavaScript/JS/challenge-scalable-event-driven-system.md",
-    "Briefings/Team Work Ojemba Website.md",
-    "JavaScript/React/Mental Model.md",
-    "JavaScript/Nestjs/Controllers.md",
     "controller.png",
-    "Briefings/2023-12-04 with Yannick.md",
-    "JavaScript/Nestjs/API.md",
     "Untitled.canvas",
     "api.png",
-    "api.avif",
-    "Introduction.md",
-    "JavaScript/TS/Mental Model.md",
-    "JavaScript/Nestjs",
-    "JavaScript/TS.md",
-    "ternary.png",
-    "JavaScript/JS/Bind-call-apply.md",
-    "JavaScript/React/Mental Modal.md",
-    "JavaScript/Node",
-    "ANN.png",
-    "Gen Ml.png",
-    "unsupervised.png",
-    "supervised.png",
-    "ml.png",
-    "Other Course/Gen AI",
-    "Other Course",
-    "Projects/Meta Spark AR"
+    "JavaScript/Nestjs"
   ]
 }
