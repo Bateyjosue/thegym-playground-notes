@@ -1,22 +1,53 @@
-let mutableArray[IE003] = [1, 2, 3, { name: 'Josue'}];
-mutableArray[IE003].push(4); // Modifies the original array
-console.log(mutableArray); // [1, 2, 3, { name: 'Josue'}, 4]
+// let x: number = 5;
+// x = "hello";
 
-mutableArray[IE003].pop()
+// x = false
+// x = [1, 2, 3, 4, 5]
+
+// x = {
+//   x : true
+// }
 
 
-let mutableObject = { key: 'value' };
-mutableObject.newKey = 'newValue'; 
+// string name = 'Josue'
 
+// name = 10
 
-let number[IE000] = 42
+// let str = 'hello'
 
-number[IE0001] = 43
+// let str1 = new String("hello")
+// String
 
-console.log(number) // output 43
+// // str['length']
+// // str1.
 
-let immutableString = 'Hello';
+// let parent = { name: "John", getName: function () { return this.name } };
+// let child = Object.create(parent);
+// console.log(child.name)
 
-immutableString += 'World'
+// // ES6
 
-let newString = immutableString + ' World'; 
+// class Parent {
+//   constructor(name) {
+//     this.name = name;
+//    }
+// }
+
+// class Child extends Parent {
+//   constructor(params) {
+    
+//   }
+
+//   getName(age) { return this.name + "-" + age; }
+// }
+
+// const child = new Child();
+
+// console.log(child.name);
+
+// type coercion
+
+console.log(5 + "5")
+console.log(5 * parseInt("5"))
+
+// printf(5 + "5")
