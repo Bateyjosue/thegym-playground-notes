@@ -633,3 +633,31 @@ fs.readFile('example.txt', 'utf8')
 
 ```
 > In this example, we first import the `fs` module and use the `promises` property to get a version of the module that returns Promises. We then use the `readFile` method to read the contents of `example.txt`. This method returns a Promise that resolves with the file contents. We use the `then` method to handle the resolved value and the `catch` method to handle any errors
+
+**Example 3 - Using Promises:**  
+While Node.js primarily uses callbacks for handling asynchronous operations, you can also use Promises for a more modern and readable approach. Here's an example of using a Promise with the `fs` module to read a file:
+
+```js
+const fs = require('fs').promises;
+
+fs.readFile('example.txt', 'utf8')
+    .then(data => console.log(data))
+    .catch(err => console.error(err));
+
+```
+
+> In this example, we first import the `fs` module and use the `promises` property to get a version of the module that returns Promises. We then use the `readFile` method to read the contents of `example.txt`. This method returns a Promise that resolves with the file contents. We use the `then` method to handle the resolved
+
+**Example 3 - Using Promises:**  
+While Node.js primarily uses callbacks for handling asynchronous operations, you can also use Promises for a more modern and readable approach. Here's an example of using a Promise with the `fs` module to read a file:
+
+```js
+const fs = require('fs').promises;
+
+fs.readFile('example.txt', 'utf8')
+    .then(data => console.log(data))
+    .catch(err => console.error(err));
+
+```
+
+> In this example, we first import the `fs` module and use the `promises` property to get a version of the module that returns Promises. We then use the `readFile` method to read the contents of `example.txt`. This method returns a Promise that resolves with the file contents. We use the `then` method to handle the resolved
