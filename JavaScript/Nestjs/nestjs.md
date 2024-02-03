@@ -233,7 +233,7 @@ When testing services in NestJS, what is a key focus?
 What is integration testing? 
 > ❑ A) Testing individual components in isolation ❑ B) Testing the interaction between multiple components ❑ C) Testing user interface elements ❑ D) Testing individual functions or methods Correct Answer: B
 
-Which of the following values will evaluate to TRUE when used in an if statement? (if (<value>) { /* will this run? */ } ) 
+Which of the following values will evaluate to TRUE when used in an if statement? (if ([value]) { /* will this run? */ } ) 
 
 > ❑ A) [] (an empty array) ❑ B) null ❑ C) 0 (the number zero) ❑ D) "" (an empty string) Correct Answer: A
 
@@ -241,10 +241,14 @@ Given the following objects: const a = { x: 13, y: "A" } const b = { x: 99, z: u
 > ❑ A) This is not valid TypeScript and will not compile. ❑ B) { x: 99, y: "C", z: 42 } ❑ C) { x: 99, y: "A", C: 42 } ❑ D) { x: undefined, y: "C", z: 42 } Correct Answer: C
 
 What is the primary reason for using database transactions? 
-> ❑ A) They increase performance. ❑ B) They improve security. ❑ C) They make your code easier to understand. ❑ D) They make concurrent operations safe. Correct Answer: D
+> ❑ A) They increase performance. 
+> ❑ B) They improve security. 
+> ❑ C) They make your code easier to understand. 
+> >❑ D) They make concurrent operations safe. Correct Answer: D
 
 Which statements, if any, are true with regards to application services? 
-> ❑ A) A service method should implement a business use case. ❑ B) A service can use multiple repositories. 
+> ❑ A) A service method should implement a business use case. 
+> >❑ B) A service can use multiple repositories. 
 ❑ C) The errors thrown by a service should mirror common HTTP status codes. ❑ D) A service translates database errors into domain errors. Correct Answer: B
 
 Which of the following statements, if any, are true about domain objects? 
@@ -316,7 +320,7 @@ a. Using Angular's dependency injection system
 b. Through its own built-in dependency injection system
 c. By relying on third-party libraries
 d. Dependency injection is not supported in NestJS
-==>a
+==>b
 
 What decorator is used to mark a class as a module in NestJS?
 
