@@ -248,3 +248,85 @@ console.log(a+b+c+d+e) // output: 15
 4. Classes & Constructors
 5. ECMAScript & Modules
 6. Security & Performance
+
+___
+### How to handle event bubbling in JavaScript?
+
+Event bubbling is a concept in the Document Object Model (DOM) that describes the way in which events propagate or "bubble up" through the hierarchy of nested elements in the DOM.
+
+When an event, such as a mouse click, occurs on a DOM element, the event will be handled by the element first, then its parent element, and so on, until the event reaches the root element. This behavior is called event bubbling.
+
+```js
+const parent = document.querySelector('.parent');
+const child = document.querySelector('.child');
+
+// Scenario of clicking on the child element
+parent.addEventListener('click', () => {
+  console.log('Handled Last');
+});
+
+child.addEventListener('click', () => {
+  console.log('Handled First');
+});
+```
+
+In the above example, when you click on the `child` element, the event will be handled by the `child` element first, then its parent element, and so on, to the root element unless you stop the propagation (`event.stopPropagation()`) of the event.
+
+### What is Hoisting in JavaScript?
+Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution. This means that no matter where the functions and variables are declared, they are moved to the top of their scope regardless of whether their scope is global or local. Note that hoisting only moves the declaration, not the initialization.
+
+```js
+console.log(x === undefined); // true
+var x = 3;
+console.log(x); // 3
+```
+
+The above code snippet can be visualized in the following way:
+
+```js
+var x;
+console.log(x === undefined); // true
+x = 3;
+console.log(x); // 3
+```
+### What are Scopes in JavaScript?
+A scope is a set of variables, objects, and functions that you have access to. There are three types of scopes in JavaScript. Which are Global Scope, Function Scope (Local Scope), and Block Scope.
+
+### What is the difference between `==` and `===`?
+The `==` equality operator converts the operands if they are not of the same type, then applies strict comparison. The `===` strict equality operator only considers values equal that have the same type.
+
+```js
+console.log(1 == '1'); // true
+console.log(1 === '1'); // false
+console.log(1 === 1); // true
+```
+
+### What is the difference between `null` and `undefined`?
+The `null` is an assignment value. It can be assigned to a variable as a representation of no value. But the `undefined` is a primitive value that represents the absence of a value, or a variable that has not been assigned a value.
+
+### What is Map in JavaScript?
+Map is another data structure in JavaScript which is similar to `Object` but the key can be of any type. It is a collection of elements where each element is stored as a Key, value pair. It is also known as a Hash table or a dictionary.
+
+The `key` can be of any type but the `value` can be of any type. The `key` is unique and immutable, whereas the `value` can be mutable or immutable.
+
+```js
+const roadmap = new Map();
+roadmap.set('name', 'JavaScript');
+roadmap.set('type', 'dynamic');
+roadmap.set('year', 1995);
+
+console.log(roadmap.get('name')); // JavaScript
+
+roadmap.delete('year');
+console.log(roadmap.has('year')); // false
+console.log(roadmap.size); // 2
+
+roadmap.clear();
+console.log(roadmap.size); // 0
+```
+
+### What are the different ways to declare a variable in JavaScript?
+There are three ways to declare a variable in JavaScript `var`, `let`, and `const`.
+
+### How to enable strict mode in JavaScript?
+To enable strict mode in JavaScript, you need to add the following line at the top of the file or function `'use strict';`.
