@@ -13,110 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Nestjs/nestjs.md",
+                "file": "Sock Puppets.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8fe702bf38da93ef",
+            "id": "7af58be50bfa64e4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/React/state.md",
+                "file": "JavaScript/Interview Preps.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "fb526db54b56d8df",
+            "id": "27755c4e8e46cf88",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Briefings/12-20-2023 - George.md",
+                "file": "Briefings/06.02.2024-Kimon- Interview Preps.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4ac5e3026f07c874",
+            "id": "012a31d9115d263c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "reame.md",
+                "file": "Briefings/Briefings.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "11d24b7948465492",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JavaScript/React/Controlled Components.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3b3daca281f069eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JavaScript/Tutorials Plan/Plan.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1b6d72578d68dbee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JavaScript/Tutorials Plan/date/The Magic of data types in JavaScript.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "42311d2142bd287a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/Moni Share/QA Review.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "52a4edd8dc64fe09",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JavaScript/key-takeaway-writing.md",
-                "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -166,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "fd0dfcc9b3566824",
@@ -183,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/key-takeaway-writing.md",
+                "file": "Briefings/06.02.2024-Kimon- Interview Preps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/key-takeaway-writing.md",
+                "file": "Briefings/06.02.2024-Kimon- Interview Preps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/key-takeaway-writing.md"
+                "file": "Briefings/06.02.2024-Kimon- Interview Preps.md"
               }
             }
           },
@@ -263,12 +202,33 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "52a4edd8dc64fe09",
+  "active": "27755c4e8e46cf88",
   "lastOpenFiles": [
-    "JavaScript/Tutorials Plan/Plan.md",
+    "Briefings/Briefings.md",
+    "Briefings/06.02.2024-Kimon- Interview Preps.md",
+    "Briefings/2023-10-04.md",
+    "Briefings/Exercises and Schedule.md",
+    "JavaScript/Interview Preps.md",
+    "Sock Puppets.md",
+    "Cyber Sec/OSINT/Open Source Intelligence.md",
+    "Cyber Sec/IT and Cyber-Security Fundamentals.md",
+    "Cyber Sec/OSINT/Modele 2.md",
+    "JavaScript/Nestjs/Introduction.md",
+    "Untitled 3.md",
+    "Untitled.md",
+    "Untitled.canvas",
+    "Untitled 1.canvas",
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "Cyber Sec/OSINT/information.png",
+    "reame.md",
+    "Cyber Sec/OSINT",
+    "Cyber Sec/CLI Basics.md",
     "JavaScript/Nestjs/nestjs.md",
-    "JavaScript/React/state.md",
+    "Cyber Sec",
     "JavaScript/key-takeaway-writing.md",
+    "JavaScript/Tutorials Plan/Plan.md",
+    "JavaScript/React/state.md",
     "JavaScript/Tutorials Plan/Plans.md",
     "Pasted image 20240126103517.png",
     "English/Prompt.md",
@@ -277,40 +237,20 @@
     "Professional Skills/Interview Preps",
     "JavaScript/React/Mental Model.md",
     "JavaScript/React/Note App.md",
-    "JavaScript/React/component.md",
-    "JavaScript/Nestjs/Introduction.md",
     "custom-types-thumbnail.webp",
-    "JavaScript/TS/TypeScript.md",
-    "JavaScript/Nestjs/Controllers.md",
-    "JavaScript/Nestjs/API.md",
-    "JavaScript/JS/Mental Mode.md",
-    "JavaScript/JS/JavaScript.md",
-    "JavaScript/Solidjs/Introduction.md",
-    "JavaScript/Nestjs/Project/Moni share/Sprint 4- Reviews.md",
     "JavaScript/Solidjs",
     "dupli.png",
     "JavaScript/Nestjs/Project/Moni share",
-    "Untitled 1.md",
-    "Briefings/12-20-2023 - George.md",
-    "automated-testing.md",
     "Images/providers.png",
     "Images/client-server-architecture.png.webp",
     "Images",
     "Pasted image 20231218083447.jpg",
-    "JavaScript/Tutorials Plan/date/The Magic of data types in JavaScript.md",
-    "JavaScript/Nestjs/Project/Todo api/todo.md",
     "JavaScript/Tutorials Plan/date",
-    "Untitled 1.canvas",
-    "JavaScript/Interview Preps.md",
     "architecture.png",
     "guards.png",
     "JavaScript/Tutorials Plan/index.js",
     "JavaScript/Nestjs/Project/Todo api",
     "JavaScript/Nestjs/Project",
-    "JavaScript/Tutorials Plan",
-    "controller.png",
-    "Untitled.canvas",
-    "api.png",
-    "JavaScript/Nestjs"
+    "controller.png"
   ]
 }
