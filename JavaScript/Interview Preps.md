@@ -913,3 +913,120 @@ In the example above, the `roadmap` element is added before the `roadmapTitle
 
 ### What is the difference between `map()` and `forEach()` methods?
 The `map()` method creates a new array with the results of calling a provided function on every element in the calling array. Whereas, the `forEach()` method executes a provided function once for each array element.
+
+### Is JavaScript a compiled or interpreted language?
+JavaScript is an interpreted language. This means that the JavaScript code is not compiled before it is executed. Instead, the JavaScript engine interprets the code at runtime.
+
+### How to run a piece of code only once after a specific time?
+To run a piece of code after a certain time, you can use `setTimeout` function in JavaScript. It accepts a function and a time interval in milliseconds. It returns a unique id which you can use to clear the timeout using `clearTimeout` function.
+
+```js
+const timeoutId = setTimeout(() => {
+  console.log('Hello World');
+}, 1000);
+
+// Output:
+// Hello World
+```
+
+In the above code, the `setTimeout` function runs the callback function after 1000 milliseconds (1 second) and prints `Hello World` to the console. It returns a unique id which you can use to clear the timeout using `clearTimeout` function.
+
+```js
+clearTimeout(timeoutId);
+```
+
+### Is it possible to run 2 lines of code at the same time in JavaScript?
+No, it is not possible to run 2 lines of code at the same time in JavaScript. JavaScript is a single-threaded language, which means that it can only execute one line of code at a time. However, it is possible to run 2 lines of code at the same time using asynchronous code.
+
+### What are Heap and Stack in JavaScript?
+The Heap and Stack in JavaScript Engine are two different data structures that store data in different ways.
+
+## Stack
+
+The Stack is a small, organized region of memory. It is where primitive values, function calls, and local variables are stored. It follows a "Last In, First Out" (LIFO) order, meaning that the last item added to the stack is the first one to be removed. Each function invocation creates a new stack frame, which contains the function's local variables, return address, and other contextual data.
+
+## Heap
+
+The Heap is a large, mostly unstructured region of memory. It is where `objects`, `arrays`, and `functions` are stored. Variables from the Stack (e.g., in functions) point to locations in the Heap for these dynamically allocated structures.
+
+When you declare a primitive type (like a number or boolean), it's usually managed in the stack. But when you create an object, array, or function, it's stored in the heap, and the stack will hold a reference to that location in the heap.
+
+For example:
+
+```js
+const name = 'JavaScript'; // Stored on the stack
+const roadmap = { name: 'JS' }; // `roadmap` reference on the stack, actual object { name: 'JS' } in the heap
+```
+
+In the code above, the primitive value `JavaScript` for variable `name` is directly stored on the stack. For the object assigned to `roadmap`, its actual data resides in the heap, and the reference to this data (a memory address pointer) is held on the stack.
+
+### How to scroll to the top of the page using JavaScript?
+In order to scroll to the top of the page, we can use the `scrollTo` method.
+
+```js
+window.scrollTo(0, 0);
+```
+
+### How to remove an Element from DOM?
+To remove a DOM element, you can use the `remove` or `removeChild` method of the `Node` interface.
+
+```js
+const roadmapWrapper = document.querySelector('.roadmap-wrapper');
+const roadmapTitle = document.querySelector('#roadmap-title');
+
+roadmapWrapper.removeChild(roadmapTitle);
+roadmapWrapper.remove();
+```
+
+### What is Increment operator in JavaScript?
+As the name says, the increment operator increases the value of a variable by **1**. There are two types of increment operators: `pre-increment` and `post-increment`.
+
+## Pre-increment
+
+The pre-increment operator increases the value of a variable by 1 and then returns the value. For example:
+
+```js
+let x = 1;
+console.log(++x); // 2
+console.log(x); // 2
+```
+
+## Post-increment
+
+The post-increment operator returns the value of a variable and then increases the value by 1. For example:
+
+```js
+let x = 1;
+console.log(x++); // 1
+console.log(x); // 2
+```
+
+
+
+# React Questions
+
+### What is Strict Mode in React and why is it useful?
+Strict Mode is a tool in React for highlighting potential problems in an application. By wrapping a component tree with `StrictMode`, React will activate additional checks and warnings for its descendants. This doesn't affect the production build but provides insights during development.
+
+```js
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+
+const root = createRoot(document.getElementById('root'));
+root.render(
+  <StrictMode>
+    <App />
+  </StrictMode>
+);
+```
+
+In Strict Mode, React does a few extra things during development:
+
+1. It renders components twice to catch bugs caused by impure rendering.
+2. It runs side-effects (like data fetching) twice to find mistakes in them caused by missing effect cleanup.
+3. It checks if deprecated APIs are used, and logs a warning message to the console if so.
+
+### What is JSX?
+JSX is a syntax extension to JavaScript and comes with the full power of JavaScript. JSX produces React “elements”. You can embed any JavaScript expression in JSX by wrapping it in curly braces. After compilation, JSX expressions become regular JavaScript objects.
+
+### 
