@@ -1002,6 +1002,12 @@ console.log(x); // 2
 ```
 
 
+**Callbacks**: A callback is a function that is passed as an argument to another function and is executed after a certain event has occurred or a task has been completed
+
+**First-Class Functions**: JavaScript treats functions as first-class citizens, which means that functions can be assigned to variables, passed as arguments, and returned from other functions.
+
+**Higher-Order Functions**: A higher-order function is a function that takes one or more functions as arguments, returns a function as its result, or both.
+
 
 # React Questions
 
@@ -1029,4 +1035,191 @@ In Strict Mode, React does a few extra things during development:
 ### What is JSX?
 JSX is a syntax extension to JavaScript and comes with the full power of JavaScript. JSX produces React “elements”. You can embed any JavaScript expression in JSX by wrapping it in curly braces. After compilation, JSX expressions become regular JavaScript objects.
 
-### 
+SX, or JavaScript XML, is a syntax extension for JavaScript that is primarily used with React to describe what the UI should look like. It looks similar to HTML and can be mixed with JavaScript, allowing you to write HTML elements in JavaScript and place them in the DOM without needing to use `createElement()` and `appendChild()` methods
+
+```js
+const element = React.createElement(
+  'h1',
+  {className: 'greeting'},
+  'Hello, world!'
+);
+
+```
+
+or 
+
+```js
+const element = {
+  type: 'h1',
+  props: {
+    className: 'greeting',
+    children: 'Hello, world!'
+  }
+};
+
+```
+### What is the purpose of `flushSync` in React?
+The `flushSync` function in React is used to flush updates synchronously. It schedules updates to be performed inside a high-priority task, ensuring that the updates are executed immediately and synchronously before returning control to the caller.
+
+```js
+import { flushSync } from 'react-dom';
+
+flushSync(callback);
+```
+
+This is useful in situations where you need the DOM to be updated immediately, such as for measurements or to ensure synchronous rendering. However, excessive use of `flushSync` can lead to degraded performance, so it should be used judiciously.
+
+```js
+import { flushSync } from 'react-dom';
+
+flushSync(() => {
+  setSomething(123);
+});
+// At this point, the DOM has been updated with the new value of `something`.
+
+```
+
+### What is the difference between controlled and uncontrolled components?
+A Controlled Component is one that takes its current value through props and notifies changes through callbacks like `onChange`. A parent component "controls" it by handling the callback and managing its own state and passing the new values as props to the controlled component. You could also call this a "dumb component".
+
+A Uncontrolled Component is one that stores its own state internally, and you query the DOM using a `ref` to find its current value when you need it. This is a bit more like traditional HTML.
+
+Most native React form components support both controlled and uncontrolled usage:
+
+```jsx
+// Controlled:
+<input type="text" value={value} onChange={handleChange} />
+
+// Uncontrolled:
+<input type="text" defaultValue="foo" ref={inputRef} />
+// Use `inputRef.current.value` to read the current value of <input>
+```
+
+### Custom vs Higher Order Component
+[Custom Hooks] allow you to extract component logic into reusable functions, which can then be shared across multiple components
+
+[Higher Order Component] are functions that take a component and return a new component with additional props or behavior
+
+### What's the component's lifecycle in React?
+In React functional components, lifecycle-like behaviors are achieved using hooks:
+
+## Mounting and Unmounting
+
+Utilizing the useEffect hook with an empty dependency array ([]) ensures the hook runs after the component mounts to the DOM.
+
+```js
+useEffect(() => {
+  // do something after component mounts
+  return () => {
+    // do something before component unmounts
+  };
+}, []);
+```
+
+The cleanup function returned within the useEffect callback offers a mechanism for handling tasks when the component is about to **unmount**.
+
+## Updates
+
+The useEffect hook, when invoked without a dependency array or with specific dependencies, executes after every render or when specified prop/state changes are detected.
+
+```js
+useEffect(() => {
+  // do something after every render
+});
+```
+
+```js
+useEffect(() => {
+  // do something after specific prop/state changes
+}, [state1, state2]);
+```
+
+
+### What is the purpose of the `useEffect` hook in React?
+he useEffect hook in React is used for performing side effects in functional components. Side effects can include data fetching, DOM manipulation, and subscribing to external data sources.
+
+### How do Server Components differ from Client Components?
+- **Server Components**: Server Components are executed on the server side.
+- **Client Components**: Client Components are executed on the client side (browser)
+Server Components are rendered on the server and do not require client-side JavaScript for rendering. While Server Components and Client components can coexist in the same app, Server Components can import and render Client components.
+
+### Why you shouldn't use `index` as a key in React lists and iterators?
+Using `index` as a key can negatively impact performance and may cause issues with the component state. When the list items change due to additions, deletions, or reordering, using indexes can lead to unnecessary re-renders or even incorrect UI updates. React uses keys to identify elements in the list, and if the key is just an index, it might reuse component instances and state inappropriately. Especially in cases where the list is dynamic or items can be reordered, it's recommended to use unique and stable identifiers as keys to ensure consistent behavior.
+
+### What is the `useTransition` hook?
+`useTransition` hook allows you to mark certain updates as **transitions** so they can be deprioritized, allowing other, more urgent updates to be processed first. This ensures that the UI remains responsive during updates that might take some time.
+
+```js
+import { useTransition, useState } from 'react';
+import { Posts } from './Posts';
+import { Home } from './Home';
+import { Contact } from './Contact';
+
+export function App() {
+  const [isPending, startTransition] = useTransition();
+  const [page, setPage] = useState('home');
+
+  function changePage(newPage: string) {
+    startTransition(() => {
+      setPage(newPage);
+    });
+  }
+
+  return (
+    <>
+      <button onClick={() => changePage('home')}>Home</button>
+      <button onClick={() => changePage('posts')}>Posts</button>
+      <button onClick={() => changePage('contact')}>Contact</button>
+      <hr />
+      {isPending && <div>Loading...</div>}
+      {page === 'home' && <Home />}
+      {page === 'posts' && <Posts />}
+      {page === 'contact' && <Contact />}
+    </>
+  );
+}
+```
+
+```js
+export function Home() {
+  return <div>Home</div>;
+}
+```
+
+```js
+export function Contact() {
+  return <div>Contact</div>;
+}
+```
+
+Posts component is artificially delayed by 500ms to emulate extremely slow code.
+
+```js
+export function Posts() {
+  const items = [];
+  for (let i = 0; i < 500; i++) {
+    items.push(<SlowPost key={i} />);
+  }
+  return <ul>{items}</ul>;
+}
+
+function SlowPost() {
+  const startTime = performance.now();
+  while (performance.now() - startTime < 1) {
+    // Do nothing for 1 ms per item to emulate extremely slow code
+  }
+
+  return <li>Post</li>;
+}
+```
+
+Now when you click on the `Posts` button, you'll notice that the UI remains responsive and you can still switch to other pages while the posts are loading. Try removing the `startTransition` wrapper around `setPage` in `changePage` to see the difference.
+
+### What is the difference between Real DOM and Virtual DOM?
+Virtual DOM is the representation of a UI in the form of a plain javascript object. It is a node tree that lists the elements, their attributes and content as Objects and their properties. Real DOM is the real representation of a UI which can be seen and inspected in the browser. Manipulating the virtual DOM is much faster than real DOM, because nothing gets drawn on the screen. React uses this virtual DOM to figure out the most efficient way to update the browser DOM.
+
+### What is the difference between class components and function components?
+Class components let you define your components with the help of classes. You can extend from `React.Component` class to create a component. Class components also allow you to define component level lifecycle methods. Function components are defined by writing a function which returns a React element. Functional components are the preferred way to write React components. There are no lifecycle methods similar to class components available in functional components; you can use React hooks instead to manage the component lifecycle.
+
+### What is the purpose of the `useContext` hook in React?
+The useContext hook is used to access and consume context values in functional components. It provides a way to access context data without the need for a context consumer. useContext is particularly useful when you want to access context values in nested components without having to pass props through intermediate components.
