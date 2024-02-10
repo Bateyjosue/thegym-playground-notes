@@ -64,7 +64,23 @@ const os = require('os)
 - userInfo
 - version
 - machine
+## Use of `global`, `process` and `Buffer`
+In Node.js, you would use `global`, `process`, and `Buffer` under the following circumstances:
 
+- **`global`**: You would use `global` when you want to define a global variable that should be accessible throughout your application. However, it's generally recommended to avoid defining too many global variables to prevent naming conflicts and to keep your codebase clean and manageable [1](https://www.geeksforgeeks.org/global-process-and-buffer-in-node-js/).
+
+- **`process`**: This object is particularly useful when you need to interact with the running Node.js process. You might use `process` to:
+    - Access command-line arguments with `process.argv`.
+    - Get the current working directory with `process.cwd()`.
+    - Exit the process with `process.exit()`.
+    - Read environment variables with `process.env`.
+    - Handle signals like SIGINT (Ctrl+C) and SIGTERM [1](https://www.geeksforgeeks.org/global-process-and-buffer-in-node-js/).
+
+- **`Buffer`**: The `Buffer` class is used when you need to work with binary data. This could be necessary when you are:
+    - Reading or writing to the filesystem, especially when dealing with non-text files.
+    - Performing network communications, such as sending or receiving data over a socket.
+    - Manipulating binary data, like encoding or decoding base64 strings.
+    - Working with streams, where data is handled in chunks rather than all at once
 ### The file system
 
 this can be used to read, create and delete files in our computer. the built-in module in charge of this operation is called `fs` module.
@@ -143,6 +159,28 @@ if(fs.existsSync('./file-name.txt')){
 	})
 }
 ```
+
+
+### Streams & Buffers
+
+#### Streams
+Start using data, before it has finish loading 
+![[stream.png]]
+##### Read stream
+```node
+const fs = require('fs')
+
+const readStream = fs.createReadStream('./stream-text.txt', {encoding: 'utf8'})
+
+readStream.on('data', chunk => {
+	console.log(chunk)
+})
+
+```
+##### Write stream
+
+
+___
 ## Quid?
 
 ### Difference between `global`, `process` and `Buffer` in Node.js?
