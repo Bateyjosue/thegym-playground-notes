@@ -133,6 +133,16 @@ if(!fs.existsSync('./derectory-name')){
 > we provide an `else` clause to run if the file does exist, now it should be removed 
 
 #### Delete file
+```node
+if(fs.existsSync('./file-name.txt')){
+	fs.unlink('./file-name.txt', error => {
+		if(error) {
+			console.log(error)
+		}
+		console.log('file deleted')
+	})
+}
+```
 ## Quid?
 
 ### Difference between `global`, `process` and `Buffer` in Node.js?
