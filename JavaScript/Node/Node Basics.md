@@ -178,8 +178,23 @@ readStream.on('data', chunk => {
 
 ```
 ##### Write stream
+```node
+const fs = require('fs')
 
+const readStream = fs.readStream('./stream-text.txt', {encoding: 'utf8'})
+const writeStream = fs.writeStream('./stream-text.txt')
 
+readStream.on('data', chunk => {
+	writeStream.write('\n')
+	writeStream.write(chunk)
+})
+
+```
+> there is a shorter way to write using the pipe
+
+```node
+readStream.pipe(writeStream)
+```
 ___
 ## Quid?
 
