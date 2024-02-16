@@ -1,3 +1,4 @@
+const fs = require('fs');
 // Exercise 1
 
 // global.appName = "MyApp"
@@ -33,24 +34,61 @@
 // console.log(`String from buffer: "${strFromBuffer}"`);
 
 // exercise 5
-const fs = require('fs')
 
-if (fs.existsSync('./test/test.txt')) {
-  fs.unlink('./test/test.txt', error => {
-    if (error) console.log(error)
-    console.log('Delete test.txt');
-  })
-}
-fs.writeFile('./test/test.txt', 'This is a test', () => {
-  console.log('test.txt create');
-})
 
-fs.appendFile('./test/test.txt', 'Append test', () => {
-  console.log('test.txt create');
-})
+// if (fs.existsSync('./test/test.txt')) {
+//   fs.unlink('./test/test.txt', error => {
+//     if (error) console.log(error)
+//   })
+// }
+// fs.writeFile('./test/test.txt', 'This is a test', (error) => {
+//   if (error) console.log(error)
+// })
 
-fs.readFile('./test/test.txt', (error, data) => {
-  if (error) console.log(error)
-  console.log(data.toString())
-})
+// fs.appendFile('./test/test.txt', '\nAppend test', (error) => {
+//   if (error) console.log(error)
+// })
 
+// fs.readFile('./test/test.txt', (error, data) => {
+//   if (error) console.log(error)
+//   console.log(data.toString())
+// })
+
+
+// Exercise 6
+
+// const source = fs.createReadStream('./test/test.txt', { encoding: 'utf8'})
+// const destination = fs.createWriteStream('./test/destination.txt')
+
+// source.pipe(destination)
+
+// Exercise 7
+
+// const source = fs.createReadStream('./test/test.txt', { encoding: 'utf8' }, error => {
+//   if (error) console.log(error)
+// })
+// const destination = fs.createWriteStream('./test/destination.txt', error => {
+//   if (error) console.log(error)
+// })
+
+// source.on('data', chunk => {
+//   destination.write('\n')
+//   destination.write(chunk)
+//   destination.write('======= Destination Data =========')
+// })
+
+// // fs.readFile('./test/destination.txt', ( error, data) => {
+// //   if (error) console.log(error)
+// //   console.log(data.toString());
+// // })
+
+
+// destination.on('data', chunk => {
+//   console.log(chunk);
+// })
+
+// Exercise 8
+
+process.title = 'Joshi Tests'
+
+console.log(process.title);

@@ -181,8 +181,8 @@ readStream.on('data', chunk => {
 ```node
 const fs = require('fs')
 
-const readStream = fs.readStream('./stream-text.txt', {encoding: 'utf8'})
-const writeStream = fs.writeStream('./stream-text.txt')
+const readStream = fs.createReadStream('./stream-text.txt', {encoding: 'utf8'})
+const writeStream = fs.createWriteStream('./stream-text.txt')
 
 readStream.on('data', chunk => {
 	writeStream.write('\n')
