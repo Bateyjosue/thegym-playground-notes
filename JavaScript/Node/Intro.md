@@ -58,3 +58,62 @@ we write code and the programming will compile them down to machine code
 - can share code between front and back end
 - Node.js has a massive community behind it
 - Huge amount of third-party packages & tools to help
+# The Node.js Event Loop, Timers, and `process.nextTick()`
+## What is the Event Loop?
+The Event Loop is a mechanism in Node.js that enables it to handle asynchronous operations efficiently. It works by offloading I/O operations to the system kernel, which is multi-threaded and can process multiple operations concurrently. When an operation is complete, the kernel notifies Node.js, which then adds the corresponding callback to the poll queue for execution. This allows Node.js to continue executing other code without waiting for I/O operations to complete, thus maintaining its non-blocking nature despite JavaScript's single-threaded execution model.
+### The Poll Queue or Event Queue
+The poll queue, also known as the [event queue] is a data structure used by Node.js to manage callbacks that are ready to be executed. When an asynchronous operation is completed, such as a file read or a network request, the corresponding callback function is placed into the poll queue.
+
+Here's how the poll queue works within the context of the Event Loop:
+
+1. **Callback Registration**: When an asynchronous operation is initiated, a callback function is registered to be executed once the operation is complete.
+
+2. **Kernel Notification**: The system kernel, which handles the I/O operations, notifies Node.js when the operation is done.
+
+3. **Event Loop Check**: The Event Loop periodically checks the poll queue to see if there are any callbacks waiting to be executed.
+
+4. **Callback Execution**: If there are callbacks in the poll queue, the Event Loop takes the first one and executes it. This is done in a non-blocking manner, meaning that the Event Loop can continue to handle other operations while the callback is being executed.
+
+5. **Continuous Loop**: The Event Loop continues to loop through the poll queue, executing callbacks as they become available, until the poll queue is empty.
+
+The poll queue is a crucial part of Node.js's non-blocking I/O model, which allows it to handle many operations concurrently without waiting for each one to complete before moving on to the next, thus maximizing throughput and efficiency.
+
+The Event Loop in Node.js is a mechanism that handles the execution of JavaScript code in a non-blocking manner. It processes asynchronous operations and callbacks in a specific order, which is defined by several phases. Here's a summary of the Event Loop's phases and their functions:
+
+1. **Timers**: Executes callbacks scheduled by `setTimeout()` and `setInterval()`.
+2. **Pending Callbacks**: Executes I/O callbacks deferred to the next loop iteration.
+3. **Idle, Prepare**: Internal phases used by Node.js.
+4. **Poll**: Retrieves new I/O events and executes I/O-related callbacks. Node.js may block here when appropriate.
+5. **Check**: Executes `setImmediate()` callbacks.
+6. **Close Callbacks**: Executes close callbacks for resources like sockets.
+
+The Event Loop continuously cycles through these phases, executing callbacks from the relevant queues. If a phase's queue is empty, the Event Loop will wait for callbacks to be added to the queue before continuing.
+
+`setImmediate()` and `setTimeout()` are similar but behave differently. `setImmediate()` is designed to execute a script once the current poll phase completes, while `setTimeout()` schedules a script to run after a minimum threshold in milliseconds has elapsed.
+
+`process.nextTick()` is not part of the Event Loop phases but is used to queue callbacks to be executed on the next iteration of the Event Loop, after the current operation completes. It's used to handle errors, clean up resources, or to allow a callback to run after the call stack has unwound but before the Event Loop continues.
+
+In summary, the Event Loop in Node.js is a complex system that manages the execution of asynchronous operations and callbacks in a non-blocking manner, ensuring that the JavaScript runtime can handle a large number of operations efficiently.
+
+REPL
+
+___
+## Quid? 
+### 1. What is the difference between event loop and poll queue?
+> the Event Loop is the process that manages the execution of callbacks, while the poll queue is the data structure that holds these callbacks until they are ready to be executed by the Event Loop. The Event Loop continuously checks the poll queue and executes the callbacks in it, allowing Node.js to handle asynchronous operations efficiently without blocking the main thread.
+
+**Event Loop**:
+- The Event Loop is the mechanism that drives the execution of JavaScript code in a non-blocking manner.
+- It is responsible for continuously checking the poll queue for any callbacks that are ready to be executed.
+- The Event Loop runs in a single thread and is the core of Node.js's concurrency model.
+
+**Poll Queue**:
+- The poll queue, also known as the event queue, is a data structure that holds callbacks that are ready to be executed.
+- When an asynchronous operation is completed, its callback is placed into the poll queue.
+- The Event Loop checks the poll queue to determine which callbacks to execute next.
+### 2. REPL
+> stands for Read-Eval-Print Loop. It is an interactive programming environment that takes single user inputs, evaluates them, and returns the result to the user.
+1. **Read**: The REPL reads the user's input.
+2. **Eval**: The REPL evaluates the input.
+3. **Print**: The REPL prints the result of the evaluation.
+4. **Loop**: The REPL then waits for the next input, and the cycle repeats.
