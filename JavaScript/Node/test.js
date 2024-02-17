@@ -24,43 +24,43 @@ const fs = require('fs');
 // console.log(MY_ENV_VAR)
 
 // Exercise 4
-// const str = 'hello world'
-// console.log("Original String: " +str);
+const str = 'hello world'
+console.log("Original String: " +str);
 
-// const bf = Buffer.from(str)
-// console.log(bf);
-// const strFromBuffer = bf.toString()
+const bf = Buffer.from(str)
+console.log(bf);
+const strFromBuffer = bf.toString()
 
-// console.log(`String from buffer: "${strFromBuffer}"`);
+console.log(`String from buffer: "${strFromBuffer}"`);
 
 // exercise 5
 
 
-// if (fs.existsSync('./test/test.txt')) {
-//   fs.unlink('./test/test.txt', error => {
-//     if (error) console.log(error)
-//   })
-// }
-// fs.writeFile('./test/test.txt', 'This is a test', (error) => {
-//   if (error) console.log(error)
-// })
+if (fs.existsSync('./test/test.txt')) {
+  fs.unlink('./test/test.txt', error => {
+    if (error) console.log(error)
+  })
+}
+fs.writeFile('./test/test.txt', 'This is a test', (error) => {
+  if (error) console.log(error)
+})
 
-// fs.appendFile('./test/test.txt', '\nAppend test', (error) => {
-//   if (error) console.log(error)
-// })
+fs.appendFile('./test/test.txt', '\nAppend test', (error) => {
+  if (error) console.log(error)
+})
 
-// fs.readFile('./test/test.txt', (error, data) => {
-//   if (error) console.log(error)
-//   console.log(data.toString())
-// })
+fs.readFile('./test/test.txt', (error, data) => {
+  if (error) console.log(error)
+  console.log(data.toString())
+})
 
 
 // Exercise 6
 
-// const source = fs.createReadStream('./test/test.txt', { encoding: 'utf8'})
-// const destination = fs.createWriteStream('./test/destination.txt')
+const source = fs.createReadStream('./test/test.txt', { encoding: 'utf8'})
+const destination = fs.createWriteStream('./test/destination.txt')
 
-// source.pipe(destination)
+source.pipe(destination)
 
 // Exercise 7
 

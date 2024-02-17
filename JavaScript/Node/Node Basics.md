@@ -234,6 +234,24 @@ console.log(MY_ENV_VAR)
 
 Write a Node.js script that converts a string into a Buffer and then back into a string. Log both the original string and the converted string to the console.
 
+```node
+const str = 'hello world'
+
+console.log("Original String: " +str);
+
+  
+
+const bf = Buffer.from(str)
+
+console.log(bf);
+
+const strFromBuffer = bf.toString()
+
+  
+
+console.log(`String from buffer: "${strFromBuffer}"`);
+```
+
 ### Exercise 5: File System Operations
 
 Create a Node.js script that performs the following file system operations:
@@ -242,18 +260,108 @@ Create a Node.js script that performs the following file system operations:
 - Append the text " Appended text." to `test.txt`.
 - Read the contents of `test.txt` and log it to the console.
 - Delete `test.txt`.
+```node
+if (fs.existsSync('./test/test.txt')) {
+
+  fs.unlink('./test/test.txt', error => {
+
+    if (error) console.log(error)
+
+  })
+
+}
+
+fs.writeFile('./test/test.txt', 'This is a test', (error) => {
+
+  if (error) console.log(error)
+
+})
+
+  
+
+fs.appendFile('./test/test.txt', '\nAppend test', (error) => {
+
+  if (error) console.log(error)
+
+})
+
+  
+
+fs.readFile('./test/test.txt', (error, data) => {
+
+  if (error) console.log(error)
+
+  console.log(data.toString())
+
+})
+```
 
 ### Exercise 6: Streams
 
 Write a Node.js script that uses streams to copy the contents of a source file to a destination file. The source file should be named `source.txt`, and the destination file should be named `destination.txt`.
 
+```js
+const source = fs.createReadStream('./test/test.txt', { encoding: 'utf8'})
+const destination = fs.createWriteStream('./test/destination.txt')
+
+source.pipe(destination)
+```
 ### Exercise 7: Error Handling
 
 Modify the file copying script from Exercise 6 to include proper error handling. If an error occurs during any of the file operations, log the error message to the console.
 
+```js
+ const source = fs.createReadStream('./test/test.txt', { encoding: 'utf8' }, error => {
+
+  if (error) console.log(error)
+
+ })
+
+ const destination = fs.createWriteStream('./test/destination.txt', error => {
+
+   if (error) console.log(error)
+
+ })
+
+  
+
+ source.on('data', chunk => {
+
+   destination.write('\n')
+
+  destination.write(chunk)
+  destination.write('======= Destination Data =========')
+
+ })
+
+  
+
+ // fs.readFile('./test/destination.txt', ( error, data) => {
+
+ //   if (error) console.log(error)
+
+ //   console.log(data.toString());
+
+ // })
+
+  
+  
+
+ destination.on('data', chunk => {
+ console.log(chunk);
+ })
+```
 ### Exercise 8: Process Management
 
 Create a Node.js script that sets a custom title for the process using `process.title`. After setting the title, log `process.title` to verify that it was changed successfully.
+
+```js
+process.title = 'Joshi Tests'
+
+  
+
+console.log(process.title);
+```
 
 Remember to run each exercise in a separate Node.js environment to avoid conflicts between scripts. Good luck, and have fun coding!
 

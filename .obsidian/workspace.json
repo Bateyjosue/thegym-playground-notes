@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9fb6d62d390bee4f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JavaScript/Node/index.js.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "b70ffd569c000ef6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Node/Intro.md",
+                "file": "JavaScript/Node/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Node/Node Basics.md",
+                "file": "JavaScript/Node/Clients-Servers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c32e33150e7fa8e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Requests-Responses.md",
                 "mode": "source",
                 "source": false
               }
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/Node/Node Basics.md",
+                "file": "Requests-Responses.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/Node/Node Basics.md",
+                "file": "Requests-Responses.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/Node/Node Basics.md"
+                "file": "Requests-Responses.md"
               }
             }
           },
@@ -192,15 +192,31 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3b484e35ff4a8a76",
+  "active": "c32e33150e7fa8e5",
   "lastOpenFiles": [
-    "JavaScript/Node/index.js.md",
-    "JavaScript/Node/Node Basics.md",
+    "JavaScript/Node/views/404.html",
+    "JavaScript/Node/views/about copy.html",
+    "JavaScript/Node/views/about.html",
+    "JavaScript/Node/views/index copy.html",
+    "2024-02-16.webp",
+    "JavaScript/Node/views/index.html",
+    "JavaScript/Node/views",
+    "JavaScript/Node/index.md",
+    "Requests-Responses.md",
+    "JavaScript/Node/Clients-Servers.md",
+    "JavaScript/Node/server.js",
+    "client.png",
     "JavaScript/Node/Intro.md",
+    "JavaScript/Node/Node Basics.md",
+    "JavaScript/Node/test/destination.txt",
+    "JavaScript/Node/test/test.txt",
+    "JavaScript/Node/test",
+    "JavaScript/Node/test.js",
+    "stream.png",
+    "JavaScript/Node/index.js.md",
     "node.png",
     "Template/TOC.md",
     "JavaScript/Nestjs/nestjs.md",
-    "Template",
     "JavaScript/Nestjs/Introduction.md",
     "JavaScript/TS.md",
     "Briefings/02.09.2024-Kimon.md",
@@ -218,29 +234,13 @@
     "JavaScript/React/search parameter.md",
     "JavaScript/React/state.md",
     "Cyber Sec/OSINT/Sock Puppets.md",
-    "Briefings/02.07.2024- Kimon.md",
-    "Briefings/Briefings.md",
-    "Briefings/06.02.2024-Kimon- Interview Preps.md",
-    "Briefings/2023-10-04.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Cyber Sec/OSINT/information.png",
-    "Cyber Sec/OSINT",
-    "Cyber Sec",
     "Pasted image 20240126103517.png",
-    "Professional Skills/Interview Preps",
     "custom-types-thumbnail.webp",
-    "JavaScript/Solidjs",
     "dupli.png",
-    "JavaScript/Nestjs/Project/Moni share",
     "Images/providers.png",
-    "Images/client-server-architecture.png.webp",
-    "Images",
-    "Pasted image 20231218083447.jpg",
-    "JavaScript/Tutorials Plan/date",
-    "architecture.png",
-    "guards.png",
-    "JavaScript/Tutorials Plan/index.js",
-    "JavaScript/Nestjs/Project/Todo api"
+    "Images/client-server-architecture.png.webp"
   ]
 }
