@@ -2,17 +2,18 @@
   "name": "nodejs-notes",
   "version": "1.0.0",
   "description": "it notes about the nodejs technology",
-  "main": "server.js",
+  "main": "app.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "nodemon app.js"
   },
   "author": "Josue Batey",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.18.2",
     "loadash": "^1.0.0"
   }
 }
