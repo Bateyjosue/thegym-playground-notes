@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Node/Clients-Servers.md",
+                "file": "JavaScript/Node/Intro.md",
                 "mode": "source",
                 "source": false
               }
@@ -194,6 +194,11 @@
   },
   "active": "c32e33150e7fa8e5",
   "lastOpenFiles": [
+    "status codes range.png",
+    "JavaScript/Node/Intro.md",
+    "JavaScript/Node/Node Basics.md",
+    "JavaScript/Node/Clients-Servers.md",
+    "Requests-Responses.md",
     "JavaScript/Node/views/404.html",
     "JavaScript/Node/views/about copy.html",
     "JavaScript/Node/views/about.html",
@@ -202,16 +207,11 @@
     "JavaScript/Node/views/index.html",
     "JavaScript/Node/views",
     "JavaScript/Node/index.md",
-    "Requests-Responses.md",
-    "JavaScript/Node/Clients-Servers.md",
     "JavaScript/Node/server.js",
     "client.png",
-    "JavaScript/Node/Intro.md",
-    "JavaScript/Node/Node Basics.md",
     "JavaScript/Node/test/destination.txt",
     "JavaScript/Node/test/test.txt",
     "JavaScript/Node/test",
-    "JavaScript/Node/test.js",
     "stream.png",
     "JavaScript/Node/index.js.md",
     "node.png",
