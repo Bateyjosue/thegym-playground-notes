@@ -24,6 +24,5 @@ app.get('/*', (req, res) => {
   //   {root: __dirname}
   // )
 
-  res.setHeader('Location', '/')
-  res.end()
+  res.redirect(301, '/')
 })

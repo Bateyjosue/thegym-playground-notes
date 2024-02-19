@@ -1,1 +1,1 @@
-![[CLI Basics]]
+[[CLI Basics]]
