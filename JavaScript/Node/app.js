@@ -18,11 +18,24 @@ app.get('/about', (req, res) => {
   )
 })
 
-app.get('/*', (req, res) => { 
-  // res.sendFile(
-  //   './views/404.html',
-  //   {root: __dirname}
-  // )
-
-  res.redirect(301, '/')
+app.get('/404', (req, res) => { 
+  res.sendFile(
+    './views/404.html',
+    {root: __dirname}
+  )
 })
+
+
+app.get('/*', (req, res) => { 
+  res.sendFile(
+    './views/404.html',
+    {root: __dirname}
+  )
+// 
+  // res.redirect('/404')
+})
+
+  // 404 page
+  app.use((req, res) => {
+    res.sendFile('./views/404.html', {root: __dirname})
+  })
