@@ -4,6 +4,8 @@ const app = express()
 
 // View engine configuration
 app.set('view engine', 'ejs')
+app.use(express.static("public"));
+app.use(express.static("node_modules"));
 
 app.listen(3000)
 
