@@ -3,16 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=`, initial-scale=1.0" />
-    <title>Home</title>
+    <title><%= title %></title>
   </head>
   <body>
-    <header>
-      <h1 class="site-title">express.js</h1>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-      </ul>
-    </header>
+    <%- include('header.ejs') %>
     <p>
        the concept of requests and responses is central to building web servers
       and clients. The "http" module is used to create HTTP servers and clients
@@ -21,6 +15,13 @@
     <button>Hire me</button>
     <section>
       <h2>Skills</h2>
+      <ul>
+        <% if (stacks.length == 0){ %>
+        <h1>No Stack found</h1>
+        <% } %> <% stacks.map((stack) => { %>
+        <li><%= stack %></li>
+        <% }) %>
+      </ul>
     </section>
   </body>
 </html>
