@@ -3,25 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=`, initial-scale=1.0" />
+    <link rel="stylesheet" href="/output.css" />
     <title><%= title %></title>
   </head>
-  <body>
+  <body class="bg-green-950 text-white">
     <%- include('header.ejs') %>
-    <p>
+    <p class="my-12 w-2/3 mx-auto text-center">
        the concept of requests and responses is central to building web servers
       and clients. The "http" module is used to create HTTP servers and clients
       that can send and receive HTTP requests and responses
     </p>
-    <button>Hire me</button>
-    <section>
-      <h2>Skills</h2>
-      <ul>
+    <div class="grid place-content-center">
+      <button class="rounded-full bg-blue-600 border-none px-12 py-2">
+        Get started
+      </button>
+    </div>
+    <section class="container mx-auto">
+      <h2
+        class="text-center font-bold text-xl underline-offset-4 underline my-4"
+      >
+        Skills
+      </h2>
+      <ul class="flex flex-wrap gap-x-4">
         <% if (stacks.length == 0){ %>
         <h1>No Stack found</h1>
         <% } %> <% stacks.map((stack) => { %>
-        <li><%= stack %></li>
+        <li class="bg-gray-300 rounded-3xl text-black py-1 px-2">
+          <%= stack %>
+        </li>
         <% }) %>
       </ul>
     </section>
+    <script
+      src="/tw-elements/dist/js/tw-elements.umd.min.js"
+      type="text/javascript"
+    ></script>
   </body>
 </html>
