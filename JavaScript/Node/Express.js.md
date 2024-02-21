@@ -218,3 +218,85 @@ In this example, the `index.ejs` file uses EJS syntax to embed JavaScript code a
 
 EJS is a popular choice for server-side templating in Node.js applications due to its simplicity and ease of use. It allows developers to create dynamic HTML content without having to switch between languages or use complex templating syntax.
 
+### Middleware
+
+> Code which runs (on the server) between getting a request and sending a response
+
+Middleware in Express.js is a function that has access to the request object (`req`), the response object (`res`), and the next middleware function in the application’s request-response cycle, commonly denoted by a variable named `next` [0][1][2][4]. Middleware functions can perform various tasks, such as executing code, modifying the request and response objects, ending the request-response cycle, and calling the next middleware function in the stack [0][1][2][4].
+
+Here's how you can use middleware in Express.js:
+
+1. **Application-level Middleware**: Bind application-level middleware to an instance of the `app` object using the `app.use()` function. This middleware will be executed every time the app receives a request.
+
+```javascript
+const express = require('express');
+const app = express();
+
+app.use((req, res, next) => {
+  console.log('Time:', Date.now());
+  next();
+});
+```
+
+2. **Router-level Middleware**: Similar to application-level middleware, but bound to an instance of `express.Router()`. This middleware is executed for requests handled by the router.
+
+```javascript
+const express = require('express');
+const app = express();
+const router = express.Router();
+
+router.use((req, res, next) => {
+  console.log('Time:', Date.now());
+  next();
+});
+
+// mount the router on the app
+app.use('/', router);
+```
+
+3. **Middleware with Specific Path**: Middleware can be mounted on a specific path, and it will be executed for any type of HTTP request on that path.
+
+```javascript
+app.use('/user/:id', (req, res, next) => {
+  console.log('Request Type:', req.method);
+  next();
+});
+```
+
+4. **Middleware Array**: Middleware can be declared in an array for reusability.
+
+```javascript
+function logOriginalUrl(req, res, next) {
+  console.log('Request URL:', req.originalUrl);
+  next();
+}
+
+function logMethod(req, res, next) {
+  console.log('Request Type:', req.method);
+  next();
+}
+
+const logStuff = [logOriginalUrl, logMethod];
+app.get('/user/:id', logStuff, (req, res, next) => {
+  res.send('User Info');
+});
+```
+
+5. **Skipping Middleware**: If you want to skip the rest of the middleware functions, you can call `next('router')` to pass control back out of the router instance.
+
+```javascript
+router.use((req, res, next) => {
+  if (!req.headers['x-auth']) return next('router');
+  next();
+});
+```
+
+Middleware functions are a powerful tool in Express.js for handling various aspects of the request-response cycle, such as logging, authentication, and modifying request and response objects.![[middleware.png]]
+
+> the order of middleware matter so better be careful while defining them.
+
+#### Middleware example
+1. logger middleware to log details of every request
+2. Authentication checks middleware for protected routes
+3. Middleware to parse JSON data data from requests
+4. Return 404 pages
