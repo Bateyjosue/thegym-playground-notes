@@ -40,7 +40,7 @@ app.get('/', async (req, res) => {
   //   console.log(err);
   // }
 
-  // get all document
+  //get all document
 
   try {
 
