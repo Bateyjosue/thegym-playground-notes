@@ -387,3 +387,141 @@ app.use(express.static('public'));
 ```
 
 Remember to organize your static files in a dedicated directory, commonly named `public` or `assets`, and to secure your file serving to prevent unauthorized access to sensitive files [4].
+
+### Request types
+
+In Express.js, a popular web application framework for Node.js, you can handle different types of HTTP requests using various methods on the `app` object. These methods correspond to the HTTP request methods, such as GET, POST, PUT, DELETE, etc. Here's a brief overview of how you can handle these request types:
+
+### GET Request
+
+A GET request is used to retrieve data from the server. In Express.js, you can handle GET requests using the `app.get()` method.
+
+```javascript
+app.get('/', (req, res) => {
+  res.send('Hello World!');
+});
+```
+
+### POST Request
+
+A POST request is used to send data to the server, typically to create a new resource. In Express.js, you can handle POST requests using the `app.post()` method.
+
+```javascript
+app.post('/data', (req, res) => {
+  // Handle the POST request
+  res.send('Data received!');
+});
+```
+
+### PUT Request
+
+A PUT request is used to update an existing resource on the server. In Express.js, you can handle PUT requests using the `app.put()` method.
+
+```javascript
+app.put('/data/:id', (req, res) => {
+  // Handle the PUT request
+  res.send('Data updated!');
+});
+```
+
+### DELETE Request
+
+A DELETE request is used to delete a resource on the server. In Express.js, you can handle DELETE requests using the `app.delete()` method.
+
+```javascript
+app.delete('/data/:id', (req, res) => {
+  // Handle the DELETE request
+  res.send('Data deleted!');
+});
+```
+
+### Handling All Requests
+
+If you want to handle all types of requests to a specific route, you can use the `app.all()` method. This is useful for setting up middleware that should run for all request types.
+
+```javascript
+app.all('/data', (req, res) => {
+  // This will run for all request types to '/data'
+  res.send('This route handles all request types!');
+});
+```
+
+### Using Middleware
+
+Express.js also allows you to use middleware functions to handle requests. Middleware functions have access to the request object (`req`), the response object (`res`), and the next middleware function in the application’s request-response cycle. The next middleware function is commonly denoted by a variable named `next`.
+
+```javascript
+app.use((req, res, next) => {
+  console.log('Time:', Date.now());
+  next();
+});
+```
+
+In this example, the middleware function logs the current time and then calls `next()` to pass control to the next middleware function in the stack. If `next()` is not called, the request will be left hanging.
+
+Express.js provides a powerful and flexible way to build web applications by handling different types of HTTP requests and using middleware to manage the request-response cycle.
+
+### POST Request
+In Express.js, handling POST requests involves defining a route that listens for POST requests on a specific URL path. When a client sends a POST request to that path, the server executes a callback function that processes the request. This is typically used for submitting form data, uploading files, or sending JSON data to the server.
+
+```node
+const express = require('express');
+const app = express();
+const port = 3000;
+
+// Middleware to parse JSON bodies
+app.use(express.json());
+
+// Middleware to parse URL-encoded bodies
+app.use(express.urlencoded({extended: true}))
+
+// POST request handler
+app.post('/submit-data', (req, res) => {
+    console.log(req.body); // Log the request body to the console
+    res.status(200).send('Data received!'); // Send a response back to the client
+});
+
+// Start the server
+app.listen(port, () => {
+    console.log(`Server running at http://localhost:${port}`);
+});
+
+```
+
+> app.use(express.urlencoded({extended: true}))
+
+The line `app.use(express.urlencoded({extended: true}))` in Express.js is middleware that parses incoming request bodies in a middleware before your handlers, available under the `req.body` property. This is particularly useful when you're dealing with form submissions where the data is sent as `application/x-www-form-urlencoded` instead of JSON.
+
+Here's a breakdown of what this line does:
+
+- `app.use()`: This is a method to register middleware functions with the Express application. Middleware functions are functions that have access to the request object (`req`), the response object (`res`), and the next middleware function in the application’s request-response cycle.
+
+- `express.urlencoded()`: This is a built-in middleware function in Express. It parses incoming requests with URL-encoded payloads and is based on body-parser.
+
+- `{extended: true}`: This option allows for rich objects and arrays to be encoded into the URL-encoded format, allowing for a JSON-like experience with URL-encoded. If `extended` is set to `false`, the URL-encoded data will be parsed with the `querystring` library.
+
+Here's an example of how you might use this middleware in an Express.js application:
+
+```javascript
+const express = require('express');
+const app = express();
+const port = 3000;
+
+// Middleware to parse URL-encoded bodies
+app.use(express.urlencoded({extended: true}));
+
+// POST request handler
+app.post('/submit-form', (req, res) => {
+    console.log(req.body); // Log the request body to the console
+    res.status(200).send('Form submitted!'); // Send a response back to the client
+});
+
+// Start the server
+app.listen(port, () => {
+    console.log(`Server running at http://localhost:${port}`);
+});
+```
+
+In this example, when a form is submitted to the `/submit-form` endpoint, the `express.urlencoded({extended: true})` middleware parses the form data and makes it available under `req.body`. This allows you to easily access the form data in your route handler.
+
+This setup is particularly useful for handling form submissions in web applications where users input data through HTML forms. The `extended: true` option allows for more complex data structures to be encoded into the URL-encoded format, enabling a more flexible and powerful way to handle form data.
