@@ -738,3 +738,116 @@ deleteUser();
 ```
 
 These examples demonstrate how to delete documents from a MongoDB database using Mongoose. Depending on your application's requirements, you might need to implement additional logic for authentication, error handling, and more complex query conditions.
+
+To update documents in Mongoose, you can use several methods provided by Mongoose models, such as `updateOne()`, `updateMany()`, `findByIdAndUpdate()`, or `findOneAndUpdate()`. These methods allow you to update documents in your MongoDB database based on various criteria such as matching a specific condition or by the document's ID.
+
+Here's a step-by-step guide on how to update documents using Mongoose:
+
+### Step 1: Set Up Your Mongoose Model
+
+First, ensure you have Mongoose installed in your project. If not, you can install it using npm:
+
+```bash
+npm install mongoose
+```
+
+Then, define a Mongoose model for your collection. For example, if you have a collection of users, you might define a User model like this:
+
+```javascript
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+
+const UserSchema = new Schema({
+ name: String,
+ email: String,
+ // other fields...
+});
+
+const User = mongoose.model('User', UserSchema);
+```
+
+### Step 2: Connect to Your MongoDB Database
+
+Before you can perform any operations, you need to connect to your MongoDB database using Mongoose:
+
+```javascript
+mongoose.connect('mongodb://localhost/your_database_name', {
+ useNewUrlParser: true,
+ useUnifiedTopology: true,
+});
+```
+
+### Step 3: Updating Documents
+
+#### Using `updateOne()`
+
+The `updateOne()` method updates the first document that matches the given filter.
+
+```javascript
+User.updateOne({ email: 'user@example.com' }, { $set: { name: 'New Name' } }, function(err, res) {
+ if (err) console.log(err);
+ console.log("Successfully updated the user.");
+});
+```
+
+#### Using `updateMany()`
+
+The `updateMany()` method updates all documents that match the given filter.
+
+```javascript
+User.updateMany({ email: 'user@example.com' }, { $set: { name: 'New Name' } }, function(err, res) {
+ if (err) console.log(err);
+ console.log("Successfully updated the users.");
+});
+```
+
+#### Using `findByIdAndUpdate()`
+
+The `findByIdAndUpdate()` method updates a document by its ID.
+
+```javascript
+User.findByIdAndUpdate('60d5ecb8b392d234a8b392d2', { $set: { name: 'New Name' } }, function(err, res) {
+ if (err) console.log(err);
+ console.log("Successfully updated the user.");
+});
+```
+
+#### Using `findOneAndUpdate()`
+
+The `findOneAndUpdate()` method updates the first document that matches the given filter and returns the updated document.
+
+```javascript
+User.findOneAndUpdate({ email: 'user@example.com' }, { $set: { name: 'New Name' } }, { new: true }, function(err, res) {
+ if (err) console.log(err);
+ console.log("Successfully updated the user:", res);
+});
+```
+
+### Step 4: Handling Promises
+
+Mongoose operations return promises, so you can use `.then()` and `.catch()` to handle the results and errors:
+
+```javascript
+User.updateOne({ email: 'user@example.com' }, { $set: { name: 'New Name' } })
+ .then(() => console.log("Successfully updated the user."))
+ .catch(err => console.log(err));
+```
+
+### Step 5: Using Async/Await
+
+You can also use async/await for cleaner code:
+
+```javascript
+async function updateUser() {
+ try {
+    await User.updateOne({ email: 'user@example.com' }, { $set: { name: 'New Name' } });
+    console.log("Successfully updated the user.");
+ } catch (err) {
+    console.log(err);
+ }
+}
+
+updateUser();
+```
+
+These examples demonstrate how to update documents in a MongoDB database using Mongoose. Depending on your application's requirements, you might need to implement additional logic for authentication, error handling, and more complex query conditions.
