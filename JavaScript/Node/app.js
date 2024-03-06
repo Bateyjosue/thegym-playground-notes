@@ -80,13 +80,12 @@ app.get('/skills/:id', (req, res) => {
 
 })
  
-app.delete('/skill/:id', (req, res) => {
+app.post('/skill/:id', (req, res) => {
   const id = req.params.id
 
-  Skill.delete(id)
+  Skill.findByIdAndDelete(id)
     .then(() => res.redirect('/'))
-    .catch((err) => res.redirect('/'))
-    .finally(() => res.redirect('/'))
+    .catch((err) => console.log(err))
 })
 
 // app.get('/*', (req, res) => { 

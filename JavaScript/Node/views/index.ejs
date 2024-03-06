@@ -44,9 +44,20 @@
           class="bg-gray-300 rounded-3xl text-black py-1 px-2 flex items-center justify-center"
         >
           <a href="/skills/<%= stack.id %>"> <%= stack.title %> </a>
-          <a href="/skill/<%= stack.id%>">
-            <span class="material-symbols-outlined">delete</span>
-          </a>
+          <form action="/skill/<%= stack.id%>" method="POST">
+            <input
+              type="hidden"
+              name="id"
+              id="id"
+              aria-label="id"
+              value="DELETE"
+            />
+            <button type="submit">
+              <a href="/skill/<%= stack.id%>">
+                <span class="material-symbols-outlined">delete</span>
+              </a>
+            </button>
+          </form>
         </li>
         <% }) %>
       </ul>
