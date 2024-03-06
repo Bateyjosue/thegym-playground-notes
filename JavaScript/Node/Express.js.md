@@ -525,3 +525,41 @@ app.listen(port, () => {
 In this example, when a form is submitted to the `/submit-form` endpoint, the `express.urlencoded({extended: true})` middleware parses the form data and makes it available under `req.body`. This allows you to easily access the form data in your route handler.
 
 This setup is particularly useful for handling form submissions in web applications where users input data through HTML forms. The `extended: true` option allows for more complex data structures to be encoded into the URL-encoded format, enabling a more flexible and powerful way to handle form data.
+
+### Route Parameters
+
+Route parameters in Express.js are a way to capture dynamic values from the URL. They are used to create flexible routes that can handle a variety of requests with different values. Route parameters are named URL segments that are used to capture the values specified at their position in the URL. The captured values are then available to the route handler function as properties of the `req.params` object.
+
+```node
+const express = require('express');
+const app = express();
+const port = 3000;
+
+// Define a route with a route parameter
+app.get('/users/:userId', (req, res) => {
+    // Access the route parameter
+    const userId = req.params.userId;
+    res.send(`User ID: ${userId}`);
+});
+
+// Start the server
+app.listen(port, () => {
+    console.log(`Server running at http://localhost:${port}`);
+});
+
+```
+> In this example, `:userId` is a route parameter. When you navigate to a URL like `http://localhost:3000/users/123`, the `userId` parameter will capture the value `123`. This value is then accessible in the route handler function through `req.params.userId`.
+
+#### Example with Multiple Route Parameters
+You can also use multiple route parameters in a single route. Here's an example:
+```node
+app.get('/users/:userId/posts/:postId', (req, res) => {
+    const userId = req.params.userId;
+    const postId = req.params.postId;
+    res.send(`User ID: ${userId}, Post ID: ${postId}`);
+});
+
+```
+> In this example, the route `/users/:userId/posts/:postId` has two route parameters: `userId` and `postId`. When you navigate to a URL like `http://localhost:3000/users/123/posts/456`, the `userId` parameter will capture the value `123`, and the `postId` parameter will capture the value `456`.
+
+Route parameters are a powerful feature in Express.js that allow you to create dynamic and flexible routes that can handle a wide variety of requests.
