@@ -9,6 +9,7 @@ const Skill = require('./models/skills')
 app.set('view engine', 'ejs')
 app.use(express.static("public"));
 app.use(express.static("node_modules"));
+app.use(express.urlencoded({extended: true}))
 
 // DB Connection
 
@@ -55,6 +56,37 @@ app.get('/', async (req, res) => {
 
 app.get('/about', (req, res) => { 
   res.render('about', { title: 'About Page'})
+})
+
+app.get('/skills', (req, res) => { 
+  res.render('new-skill', { title: 'New Skill'})
+})
+
+app.post('/skills', (req, res) => { 
+  const skills = new Skill(req.body)
+
+  skills.save()
+    .then(result => res.redirect('/'))
+    .catch(err => res.render('new-skill', { title:'New Skill', error: err.message }))
+
+})
+
+app.get('/skills/:id', (req, res) => {
+  const id = req.params.id
+
+  Skill.findById(id)
+  .then(data => res.render('skill', { title: 'Skill', data: data }))
+  .catch(err => res.render('new-skill', { title: 'New Skill', error: err.message }))
+
+})
+ 
+app.delete('/skill/:id', (req, res) => {
+  const id = req.params.id
+
+  Skill.delete(id)
+    .then(() => res.redirect('/'))
+    .catch((err) => res.redirect('/'))
+    .finally(() => res.redirect('/'))
 })
 
 // app.get('/*', (req, res) => { 
