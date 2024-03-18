@@ -88,6 +88,23 @@ app.post('/skill/:id', (req, res) => {
     .catch((err) => console.log(err))
 })
 
+app.get('/skills/:id/edit', (req, res) => {
+  const id = req.params.id
+
+  Skill.findById(id)
+    .then((data) => res.render('form-skill', {title: 'Edit skill', data: data}))
+  .catch((err) => console.log(err))
+})
+
+app.put('/skills/:id/edit', (req, res) => {
+ const id = req.params.id;
+
+ Skill.findByIdAndUpdate(id, { $set: req.body })
+    .then(() => res.redirect(`/skills/${id}`)) // Corrected the redirect URL
+    .catch((err) => console.log(err));
+});
+
+
 // app.get('/*', (req, res) => { 
 //   res.render('404')
 // // 
