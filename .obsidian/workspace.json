@@ -4,71 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b6b0793d674ae7bd",
+        "id": "a9756759b4256178",
         "type": "tabs",
         "children": [
           {
-            "id": "3b484e35ff4a8a76",
+            "id": "9471086350839451",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Node/Intro.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c32e33150e7fa8e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JavaScript/Node/Requests-Responses.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b70ffd569c000ef6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JavaScript/Node/Express.js.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0802699876d9a2c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JavaScript/Node/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2e57b1fdcf6236ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cyber Sec/PCSC/Threat land scape.md",
+                "file": "Amali Tech/Onboarding/Orientation/Briefings/2024-04-04-Introduction To AmaliTech Service Center New Hires.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.50418853759766,
+    "width": 333.50418853759766,
     "collapsed": true
   },
   "right": {
@@ -135,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cyber Sec/PCSC/Threat land scape.md",
+                "file": "Amali Tech/Onboarding/Orientation/Briefings/2024-04-04-Introduction To AmaliTech Service Center New Hires.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cyber Sec/PCSC/Threat land scape.md",
+                "file": "Amali Tech/Onboarding/Orientation/Briefings/2024-04-04-Introduction To AmaliTech Service Center New Hires.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cyber Sec/PCSC/Threat land scape.md"
+                "file": "Amali Tech/Onboarding/Orientation/Briefings/2024-04-04-Introduction To AmaliTech Service Center New Hires.md"
               }
             }
           },
@@ -216,55 +167,55 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2e57b1fdcf6236ad",
+  "active": "9471086350839451",
   "lastOpenFiles": [
-    "Cyber Sec/PCSC/Into.md",
-    "Cyber Sec/PCSC/Threat land scape.md",
-    "role cyber sec.png",
-    "Cyber Sec/PCSC/main.md",
-    "Cyber Sec/IT and Cyber-Security Fundamentals.md",
-    "Cyber Sec/PCSC",
+    "Amali Tech/Onboarding/Orientation/Briefings/2024-04-04 Orientation-HR Policies & Procedures-Pritchard.md",
+    "Amali Tech/Onboarding/Orientation/Briefings/2024-04-04-Introduction To AmaliTech Service Center New Hires.md",
+    "Amali Tech/JavaScript/Brush-up/Fundamentals.md",
+    "Amali Tech/JavaScript/Brush-up",
+    "Amali Tech/Onboarding/Orientation/Briefings/2024-04-02.md",
+    "Amali Tech/JavaScript",
+    "Amali Tech/Onboarding/Orientation/Briefings/2024-04-03-Pritchard-and-Roger-on-RW Operations Orientation.md",
+    "Amali Tech/Onboarding/Orientation/Briefings",
+    "Amali Tech/Onboarding/Orientation",
+    "Amali Tech/Onboarding",
+    "Amali Tech/Onboarding/Orientation/Briefings/2024-04-03-Gilbert-Brocker-RW SC Orientation.md",
+    "JavaScript/JS/ES6.md",
+    "Amali Tech",
+    "JavaScript/ES6.md",
+    "JavaScript/Interview Preps.md",
+    "JS Intermediate.md",
+    "JavaScript/JS Fundamentals Group Discussion.md",
+    "JavaScript/Node/ORM.md",
+    "English/Prompt.md",
+    "JavaScript/JS/Mental Mode.md",
+    "JavaScript/JS/JavaScript.md",
+    "JavaScript/Node/MongoDB.md",
+    "JavaScript/Node/API/ORM.md",
+    "JavaScript/Node/API/API Design.md",
     "JavaScript/Node/index.md",
-    "JavaScript/Node/Express.js.md",
+    "JavaScript/Node/API/Tools.md",
     "JavaScript/Node/Requests-Responses.md",
-    "JavaScript/Node/node_modules/serve-static/package.json",
-    "JavaScript/Node/node_modules/raw-body/package.json",
-    "JavaScript/Node/node_modules/cookie/package.json",
-    "JavaScript/Node/node_modules/cookie-signature/index.js",
-    "JavaScript/Node/node_modules/type-is/index.js",
-    "JavaScript/Node/node_modules/negotiator/index.js",
-    "JavaScript/Node/node_modules/negotiator/package.json",
-    "JavaScript/Node/node_modules/accepts/package.json",
-    "JavaScript/Node/node_modules/range-parser/index.js",
-    "JavaScript/Node/node_modules/object-inspect/CHANGELOG.md",
-    "JavaScript/Node/node_modules/qs/LICENSE.md",
-    "JavaScript/Node/node_modules/qs/CHANGELOG.md",
-    "JavaScript/Node/node_modules/express/History.md",
-    "JavaScript/Node/node_modules/body-parser/SECURITY.md",
-    "JavaScript/Node/node_modules/body-parser/README.md",
-    "JavaScript/Node/node_modules/body-parser/HISTORY.md",
-    "JavaScript/Node/node_modules/es-errors/README.md",
-    "JavaScript/Node/node_modules/debug/CHANGELOG.md",
-    "JavaScript/Node/node_modules/has-symbols/CHANGELOG.md",
-    "JavaScript/Node/node_modules/set-function-length/README.md",
-    "JavaScript/Node/node_modules/define-data-property/README.md",
-    "JavaScript/Node/node_modules/side-channel/README.md",
-    "JavaScript/Node/node_modules/negotiator/HISTORY.md",
-    "JavaScript/Node/node_modules/get-intrinsic/README.md",
-    "JavaScript/Node/node_modules/es-define-property/README.md",
-    "JavaScript/Node/node_modules/cookie/SECURITY.md",
-    "JavaScript/Node/node_modules/define-data-property/CHANGELOG.md",
-    "JavaScript/Node/node_modules/side-channel/CHANGELOG.md",
-    "status codes range.png",
-    "2024-02-16.webp",
-    "client.png",
-    "stream.png",
-    "node.png",
+    "JavaScript/Node/Express.js.md",
+    "JavaScript/Node/API",
+    "JavaScript/Node/views/form-skill.ejs",
+    "JavaScript/Node/views/skill copy.ejs",
+    "JavaScript/Node/views/skill.ejs",
+    "JavaScript/React/component.md",
+    "JavaScript/React/Actions and protected routes.md",
+    "JavaScript/Node/node_modules/mongoose/SECURITY.md",
+    "JavaScript/Node/node_modules/mongoose/README.md",
+    "mongo.png",
+    "middleware.png",
+    "JavaScript/Node/node_modules/chart.js/dist/docs/assets/img/update_flowchart.0556691d.png",
+    "JavaScript/Node/node_modules/chart.js/dist/docs/assets/img/search.83621669.svg",
+    "JavaScript/Node/node_modules/chart.js/dist/docs/assets/img/scale_flowchart.fa1ab63e.png",
+    "JavaScript/Node/node_modules/chart.js/dist/docs/assets/img/render_flowchart.41a98316.png",
+    "JavaScript/Node/node_modules/chart.js/dist/docs/assets/img/init_flowchart.ee5be600.png",
+    "JavaScript/Node/node_modules/chart.js/dist/docs/assets/img/event_flowchart.83015c7a.png",
+    "JavaScript/Node/node_modules/chart.js/dist/docs/assets/img/destroy_flowchart.10814816.png",
+    "role cyber sec.png",
     "Untitled.canvas",
-    "Untitled 1.canvas",
-    "Cyber Sec/OSINT/information.png",
-    "Pasted image 20240126103517.png",
-    "custom-types-thumbnail.webp",
-    "dupli.png"
+    "Untitled 1.canvas"
   ]
 }

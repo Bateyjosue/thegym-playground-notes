@@ -1,5 +1,3 @@
-# ES6
-
 ### Arrow function
 
 is a compact alternative to a traditional [function expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function).
@@ -39,7 +37,7 @@ let x = (x, y) => x * y
 
 ### Template Literals
 
-are literals delimited with backtick(`) characters allowing for multi-lines strings, sting, interpolation with embedded expressions and special constructor called tagged templates. there are sometimes informally called **template strings**
+are literals delimited with backtick "\`" characters allowing for multi-lines strings, sting, interpolation with embedded expressions and special constructor called tagged templates. there are sometimes informally called **template strings**
 
 ```jsx
 `string text`

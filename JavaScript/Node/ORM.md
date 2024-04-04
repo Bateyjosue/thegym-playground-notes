@@ -211,3 +211,7 @@ createUser()
 Mongoose offers a powerful and flexible way to interact with MongoDB in Node.js applications. By providing a schema-based solution, it simplifies the process of defining data structures, enforcing validation, and performing database operations. Whether you're building a simple CRUD application or a complex web service, Mongoose can be a valuable tool in your development toolkit. As you continue to explore Mongoose, remember to consult the [official Mongoose documentation](https://mongoosejs.com/docs/guide.html) for more detailed information and examples. Happy coding!
 
 Prisma offers a modern and type-safe approach to database access in Node.js and TypeScript applications. Its powerful features, including type-safe query builders and a robust migration system, make it an excellent choice for developers looking to build scalable and maintainable applications. As you continue to explore Prisma, remember to consult the [official Prisma documentation](https://www.prisma.io/docs/) for more detailed information and examples. Happy coding!
+
+```
+
+```
