@@ -136,7 +136,7 @@ ask('Waht is closure?')
 > Closure close over the variables not the value mean it preserves access to the variable.
 
 #### Module Pattern
-- modules [[encapsulate]] data and behavior together. the state (data) of a module is helb by its methods via closure.
+- modules [[encapsulate]] data and behavior together. the state (data) of a module is held by its methods via closure.
 ```js
 var workshp = (function Module(techer){
 	var publicAPI = {ask, }
@@ -148,3 +148,4 @@ var workshp = (function Module(techer){
 
 workshop.ask("It's a module, right?")
 ```
+>  in here closure prevent the scope to go away. so during garbage collection it will untouchable 
