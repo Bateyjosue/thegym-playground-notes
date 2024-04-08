@@ -122,4 +122,29 @@ If we call
 - use the Number function
 
 ### Closure
-- 
+- when a function remembers its lexical scope even when the function is executed outside that lexical scope.
+```js
+function ask(question) {
+	setTimeout(function waitASec() {
+		console.log(question)
+	}, 100)
+}
+
+ask('Waht is closure?')
+```
+> closure is build in scope basics.
+> Closure close over the variables not the value mean it preserves access to the variable.
+
+#### Module Pattern
+- modules [[encapsulate]] data and behavior together. the state (data) of a module is helb by its methods via closure.
+```js
+var workshp = (function Module(techer){
+	var publicAPI = {ask, }
+	return publicAPI;
+	function ask(question) {
+		console.log(teacher, question)
+	}
+}("Josh")
+
+workshop.ask("It's a module, right?")
+```
