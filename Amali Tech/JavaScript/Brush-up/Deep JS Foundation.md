@@ -72,4 +72,54 @@ typeof v
 
 #### Special value
 - NaN (Not a number), the only value that does not have the identity property
+- indicate invalid number
+- we can use the function `isNaN` to verify if a variable contain a valid NaN
+
+#### Negative Zero
+
+#### Fundamentals Objects
+- native functions
+- build-in objects
+##### Use `new`
+- Object()
+- Array()
+- Function()
+- Date()
+- RegExp()
+- Error()
+> this should be used if you need to construct an object of this fundamentals type use this objects.
+
+##### Should be used with `new`
+- String()
+- Number()
+- Boolean()
+> should be used as functions
+
+## Abstract Operations aka Coersion
+### ToPrimitive(hint)
+###### hint
+**hint: "number"**
+- valueOf()
+- toString()
+
+**hint: "string"**
+- toString()
+- valueOf()
+> it is result in an error if we try both of those and does not give a primitive
+
+### ToString()
+> takes any values and give it representation in string form
+
+![[Screenshot from 2024-04-08 16-28-31.png]]
+If we call 
+`ToString(object): => ToPrimitive(string)`![[Screenshot from 2024-04-08 16-34-46.png]]
+### ToNumber()
+![[Screenshot from 2024-04-08 16-53-47.png]]
+> ![[Screenshot from 2024-04-08 17-08-41.png]]
+
+### Cases of coersion
+- unary operator invoke ToNumber() operator
+- use the Number function
+
+### Closure
 - 
