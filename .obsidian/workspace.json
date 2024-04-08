@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0d2e0a87441afa13",
+        "id": "5d95c280a7e387e2",
         "type": "tabs",
         "children": [
           {
-            "id": "77a8e10f922f8689",
+            "id": "2a8f019ab7859299",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.50418853759766,
-    "collapsed": true
+    "width": 281.50418853759766
   },
   "right": {
     "id": "fd0dfcc9b3566824",
@@ -167,12 +166,23 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "77a8e10f922f8689",
+  "active": "2a8f019ab7859299",
   "lastOpenFiles": [
-    "Amali Tech/Onboarding/Orientation/Briefings/RW SC Orientation - Specialization, Chapters, and Projects Assignment.md",
-    "api.avif",
-    "Amali Tech/Onboarding/Orientation/Briefings/2024-04-05- Specialization Onboarding-Backend-new hires.md",
+    "Screenshot from 2024-04-08 17-08-41.png",
+    "Images/Screenshot from 2024-04-08 16-53-47.png",
     "Amali Tech/JavaScript/Brush-up/Deep JS Foundation.md",
+    "Images/Screenshot from 2024-04-08 16-34-46.png",
+    "Images/ANN.png",
+    "automated-testing.md",
+    "Images/custom-types-thumbnail.webp",
+    "Images/guards.png",
+    "Images/Pasted image 20240126103517.png",
+    "Images/role cyber sec.png",
+    "Images/unsupervised.png",
+    "Images/Screenshot from 2024-04-08 16-28-31.png",
+    "Amali Tech/Onboarding/Orientation/Briefings/RW SC Orientation - Specialization, Chapters, and Projects Assignment.md",
+    "Images/api.avif",
+    "Amali Tech/Onboarding/Orientation/Briefings/2024-04-05- Specialization Onboarding-Backend-new hires.md",
     "Amali Tech/JavaScript/Brush-up/Fundamentals.md",
     "Amali Tech/Onboarding/Orientation/Briefings/Skill Survey.md",
     "Amali Tech/Onboarding/Orientation/Briefings/2024-04-04-Orientation Amali Tech Culture.md",
@@ -192,7 +202,6 @@
     "Amali Tech",
     "Cyber Sec/PCSC/Threat land scape.md",
     "Cyber Sec/PCSC/Into.md",
-    "role cyber sec.png",
     "Cyber Sec/PCSC/main.md",
     "Cyber Sec/IT and Cyber-Security Fundamentals.md",
     "Cyber Sec/PCSC",
@@ -205,16 +214,7 @@
     "JavaScript/Node/node_modules/object-inspect/CHANGELOG.md",
     "JavaScript/Node/node_modules/qs/LICENSE.md",
     "JavaScript/Node/node_modules/qs/CHANGELOG.md",
-    "JavaScript/Node/node_modules/express/History.md",
-    "status codes range.png",
-    "2024-02-16.webp",
-    "client.png",
-    "stream.png",
-    "node.png",
     "Untitled.canvas",
-    "Untitled 1.canvas",
-    "Cyber Sec/OSINT/information.png",
-    "Pasted image 20240126103517.png",
-    "custom-types-thumbnail.webp"
+    "Untitled 1.canvas"
   ]
 }
