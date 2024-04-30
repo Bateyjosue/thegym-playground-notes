@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Amali Tech/JavaScript/Brush-up/Deep JS Foundation.md",
+                "file": "Amali Tech/Sovanta/SAP/notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "83627653276e5211",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Amali Tech/Sovanta/Stand-up/2024-04-17.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e1a077ff17d314ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Amali Tech/Sovanta/Stand-up/stand-up March, 15 2024.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.50418853759766
+    "width": 200
   },
   "right": {
     "id": "fd0dfcc9b3566824",
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Amali Tech/JavaScript/Brush-up/Deep JS Foundation.md",
+                "file": "Amali Tech/Sovanta/Stand-up/2024-04-17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Amali Tech/JavaScript/Brush-up/Deep JS Foundation.md",
+                "file": "Amali Tech/Sovanta/Stand-up/2024-04-17.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Amali Tech/JavaScript/Brush-up/Deep JS Foundation.md"
+                "file": "Amali Tech/Sovanta/Stand-up/2024-04-17.md"
               }
             }
           },
@@ -166,22 +191,37 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2a8f019ab7859299",
+  "active": "83627653276e5211",
   "lastOpenFiles": [
-    "Screenshot from 2024-04-08 17-08-41.png",
-    "Images/Screenshot from 2024-04-08 16-53-47.png",
+    "Amali Tech/Sovanta/Briefings.md",
+    "Amali Tech/Sovanta/Stand-up/2024-04-17.md",
+    "Amali Tech/Sovanta/SAP/sap cap discussion.md",
+    "Amali Tech/Sovanta/SAP/basics.md",
+    "Amali Tech/Sovanta/SAP/notes.md",
+    "Amali Tech/Sovanta/Stand-up/stand-up March, 15 2024.md",
+    "Amali Tech/Onboarding/General Information Security Awareness Training The Human Firewall - Building the First Line of Defense.md",
+    "Screenshot from 2024-04-15 10-52-14.png",
+    "JavaScript/Node/API/Tools.md",
+    "Amali Tech/Sovanta/Stand-up",
+    "Screenshot from 2024-04-12 13-51-45.png",
+    "Screenshot from 2024-04-12 13-50-39.png",
+    "Screenshot from 2024-04-12 13-50-16.png",
+    "Screenshot from 2024-04-12 13-44-42.png",
+    "Screenshot from 2024-04-12 13-39-29.png",
+    "Screenshot from 2024-04-12 13-37-27.png",
+    "Screenshot from 2024-04-12 13-35-57.png",
+    "agnostic-services.drawio.BD7ZXh2C.svg",
+    "Pasted image 20240411124313.png",
+    "JavaScript/Node/JWT.md",
+    "Amali Tech/Sovanta",
+    "Amali Tech/Sovanta/SAP",
+    "JavaScript/Node/Express.js.md",
+    "JavaScript/Node/ORM.md",
+    "JavaScript/Node/Clients-Servers.md",
+    "JavaScript/Node/MongoDB.md",
     "Amali Tech/JavaScript/Brush-up/Deep JS Foundation.md",
-    "Images/Screenshot from 2024-04-08 16-34-46.png",
-    "Images/ANN.png",
     "automated-testing.md",
-    "Images/custom-types-thumbnail.webp",
-    "Images/guards.png",
-    "Images/Pasted image 20240126103517.png",
-    "Images/role cyber sec.png",
-    "Images/unsupervised.png",
-    "Images/Screenshot from 2024-04-08 16-28-31.png",
     "Amali Tech/Onboarding/Orientation/Briefings/RW SC Orientation - Specialization, Chapters, and Projects Assignment.md",
-    "Images/api.avif",
     "Amali Tech/Onboarding/Orientation/Briefings/2024-04-05- Specialization Onboarding-Backend-new hires.md",
     "Amali Tech/JavaScript/Brush-up/Fundamentals.md",
     "Amali Tech/Onboarding/Orientation/Briefings/Skill Survey.md",
@@ -192,28 +232,13 @@
     "JS Intermediate.md",
     "Amali Tech/Onboarding/Orientation/Briefings/2024-04-04 Orientation-HR Policies & Procedures-Pritchard.md",
     "Amali Tech/Onboarding/Orientation/Briefings/2024-04-03-Pritchard-and-Roger-on-RW Operations Orientation.md",
-    "Amali Tech/Onboarding/Orientation/Briefings/2024-04-03-Gilbert-Brocker-RW SC Orientation.md",
-    "Amali Tech/Onboarding/Orientation/Briefings/2024-04-02.md",
     "Amali Tech/Onboarding/Orientation/Briefings",
     "Amali Tech/Onboarding/Orientation",
     "Amali Tech/JavaScript/Brush-up",
     "Amali Tech/Onboarding",
     "Amali Tech/JavaScript",
     "Amali Tech",
-    "Cyber Sec/PCSC/Threat land scape.md",
-    "Cyber Sec/PCSC/Into.md",
-    "Cyber Sec/PCSC/main.md",
-    "Cyber Sec/IT and Cyber-Security Fundamentals.md",
     "Cyber Sec/PCSC",
-    "JavaScript/Node/index.md",
-    "JavaScript/Node/Express.js.md",
-    "JavaScript/Node/Requests-Responses.md",
-    "JavaScript/Node/node_modules/serve-static/package.json",
-    "JavaScript/Node/node_modules/raw-body/package.json",
-    "JavaScript/Node/node_modules/cookie/package.json",
-    "JavaScript/Node/node_modules/object-inspect/CHANGELOG.md",
-    "JavaScript/Node/node_modules/qs/LICENSE.md",
-    "JavaScript/Node/node_modules/qs/CHANGELOG.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
