@@ -1,0 +1,1 @@
+- list technology in both skills and experience so that you can show your experience with different tech and where you learn them

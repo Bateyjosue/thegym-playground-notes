@@ -1,0 +1,4 @@
+- she talk to Adeline/Judith, and she Hi
+- Then met since 2017, ==Ste Bernadette==, located at **Kamonyi** in northern Province
+- first high school  ==Ste Bernadette== >> graduate from ==Kigali Leading==
+- Adeline live in **Nyarutarama**, 
