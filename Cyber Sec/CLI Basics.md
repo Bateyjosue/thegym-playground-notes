@@ -1,7 +1,0 @@
-Linux is a Unix- like operating system primarily written in C, created by Linus Torvalds in 1991.  Its primary use case is in educational institutions, but it has grown in popularity among developers, with over 47% using it as their primary operating system. It powers over half of the top 100,000 websites and 40% of all websites.  It's also used in 78% of Internet of Things (IoT) devices due to its efficiency and compact size 
-  
-Linux primarily uses a Command Line Interface (CLI), which is a text-based interface known as a terminal or shell.  The first shell was the Bourne shell, developed in 1979, and the most popular shell for Linux today is the Bourne Again shell (BASH).  
-  
-While Graphical User Interfaces (GUIs) are user-friendly, the CLI offers unique benefits.  Due to the low computational cost of processing text compared to graphics, the CLI is lightweight and viable in situations where the GUI isn't, such as when a system is overtaxed, insufficiently resourced to support a GUI, or accessed over a poor network connection. The CLI is also efficient for handling large command vocabularies and is ideal for automating repetitive tasks through scripting. These features make the CLI a powerful tool for technical professionals.  
-  
-The Linux CLI is best learned by doing. With practice, it can become intuitive and enjoyable to use

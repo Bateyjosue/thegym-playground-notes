@@ -1,3 +1,0 @@
-****![[Best Practices]]
-
-![[Naming Convention]]

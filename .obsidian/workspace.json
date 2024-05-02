@@ -4,47 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "5d95c280a7e387e2",
+        "id": "03c90219ba224ab7",
         "type": "tabs",
         "children": [
           {
-            "id": "2a8f019ab7859299",
+            "id": "1fa0bd3bdeddb7b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Amali Tech/Sovanta/SAP/notes.md",
+                "file": "Amali Tech/Sovanta/SAP/SAP Skills.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "83627653276e5211",
+            "id": "671112e9565e7273",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Amali Tech/Sovanta/Stand-up/2024-04-17.md",
+                "file": "Amali Tech/Sovanta/SAP/basics.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e1a077ff17d314ee",
+            "id": "fd19650830da89b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Amali Tech/Sovanta/Stand-up/stand-up March, 15 2024.md",
+                "file": "utils.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 235.51103591918945
   },
   "right": {
     "id": "fd0dfcc9b3566824",
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Amali Tech/Sovanta/Stand-up/2024-04-17.md",
+                "file": "utils.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Amali Tech/Sovanta/Stand-up/2024-04-17.md",
+                "file": "utils.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Amali Tech/Sovanta/Stand-up/2024-04-17.md"
+                "file": "utils.md"
               }
             }
           },
@@ -191,54 +191,54 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "83627653276e5211",
+  "active": "fd19650830da89b3",
   "lastOpenFiles": [
-    "Amali Tech/Sovanta/Briefings.md",
-    "Amali Tech/Sovanta/Stand-up/2024-04-17.md",
-    "Amali Tech/Sovanta/SAP/sap cap discussion.md",
     "Amali Tech/Sovanta/SAP/basics.md",
+    "utils.md",
+    "Amali Tech/Sovanta/SAP/SAP Skills.md",
+    "Amali Tech/Sovanta/SAP/sap cap discussion.md",
     "Amali Tech/Sovanta/SAP/notes.md",
+    "Introduction.md",
+    "The Gym/JavaScript/Nestjs/automated-testing.md",
+    "Others/AI tools for devs.md",
+    "Others",
+    "reame.md",
+    "The Gym",
+    "The Gym/Briefings/1&1/2023-11-16 - 1on1-with.md",
+    "The Gym/JavaScript/JS Intermediate.md",
+    "202312070946.md",
+    "202310131041.md",
+    "The Gym/JavaScript/Nestjs/dependency injection.md",
+    "The Gym/Images/Pasted image 20240411124313.png",
+    "The Gym/Images/Screenshot from 2024-04-08 17-08-41.png",
+    "Amali Tech/Sovanta/Stand-up/2024-04-17.md",
+    "Amali Tech/Sovanta/Briefings.md",
     "Amali Tech/Sovanta/Stand-up/stand-up March, 15 2024.md",
     "Amali Tech/Onboarding/General Information Security Awareness Training The Human Firewall - Building the First Line of Defense.md",
-    "Screenshot from 2024-04-15 10-52-14.png",
-    "JavaScript/Node/API/Tools.md",
+    "The Gym/Images/Screenshot from 2024-04-15 10-52-14.png",
+    "The Gym/JavaScript/Node/API/Tools.md",
     "Amali Tech/Sovanta/Stand-up",
-    "Screenshot from 2024-04-12 13-51-45.png",
-    "Screenshot from 2024-04-12 13-50-39.png",
-    "Screenshot from 2024-04-12 13-50-16.png",
-    "Screenshot from 2024-04-12 13-44-42.png",
-    "Screenshot from 2024-04-12 13-39-29.png",
-    "Screenshot from 2024-04-12 13-37-27.png",
-    "Screenshot from 2024-04-12 13-35-57.png",
-    "agnostic-services.drawio.BD7ZXh2C.svg",
-    "Pasted image 20240411124313.png",
-    "JavaScript/Node/JWT.md",
+    "The Gym/Images/Screenshot from 2024-04-12 13-51-45.png",
+    "The Gym/Images/Screenshot from 2024-04-12 13-50-39.png",
+    "The Gym/Images/Screenshot from 2024-04-12 13-50-16.png",
+    "The Gym/Images/Screenshot from 2024-04-12 13-44-42.png",
+    "The Gym/Images/Screenshot from 2024-04-12 13-39-29.png",
+    "The Gym/Images/Screenshot from 2024-04-12 13-37-27.png",
+    "The Gym/Images/Screenshot from 2024-04-12 13-35-57.png",
+    "The Gym/JavaScript/Node/JWT.md",
     "Amali Tech/Sovanta",
     "Amali Tech/Sovanta/SAP",
-    "JavaScript/Node/Express.js.md",
-    "JavaScript/Node/ORM.md",
-    "JavaScript/Node/Clients-Servers.md",
-    "JavaScript/Node/MongoDB.md",
+    "The Gym/JavaScript/Node/Express.js.md",
+    "The Gym/JavaScript/Node/ORM.md",
+    "The Gym/JavaScript/Node/Clients-Servers.md",
+    "The Gym/JavaScript/Node/MongoDB.md",
     "Amali Tech/JavaScript/Brush-up/Deep JS Foundation.md",
-    "automated-testing.md",
     "Amali Tech/Onboarding/Orientation/Briefings/RW SC Orientation - Specialization, Chapters, and Projects Assignment.md",
-    "Amali Tech/Onboarding/Orientation/Briefings/2024-04-05- Specialization Onboarding-Backend-new hires.md",
-    "Amali Tech/JavaScript/Brush-up/Fundamentals.md",
-    "Amali Tech/Onboarding/Orientation/Briefings/Skill Survey.md",
-    "Amali Tech/Onboarding/Orientation/Briefings/2024-04-04-Orientation Amali Tech Culture.md",
-    "Amali Tech/Onboarding/Orientation/Briefings/2024-04-04-Team Expectations on Communication and Collaboration-New Hires.md",
-    "Amali Tech/Onboarding/Orientation/Briefings/2024-04-04-Introduction To AmaliTech Service Center New Hires.md",
-    "JavaScript/Node/Intro.md",
-    "JS Intermediate.md",
-    "Amali Tech/Onboarding/Orientation/Briefings/2024-04-04 Orientation-HR Policies & Procedures-Pritchard.md",
-    "Amali Tech/Onboarding/Orientation/Briefings/2024-04-03-Pritchard-and-Roger-on-RW Operations Orientation.md",
     "Amali Tech/Onboarding/Orientation/Briefings",
     "Amali Tech/Onboarding/Orientation",
     "Amali Tech/JavaScript/Brush-up",
     "Amali Tech/Onboarding",
     "Amali Tech/JavaScript",
-    "Amali Tech",
-    "Cyber Sec/PCSC",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
