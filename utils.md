@@ -4,3 +4,4 @@
 ```
 > $PORT must be replaced with the port number you want to kill
 
+> Hana, admin secret: 4dminS3cr3t

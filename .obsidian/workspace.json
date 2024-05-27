@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Amali Tech/Sovanta/SAP/SAP Skills.md",
+                "file": "Amali Tech/Sovanta/SAP/CDS.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Amali Tech/Sovanta/SAP/basics.md",
+                "file": "Amali Tech/Show and Tell Preps/Design Pattern.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "fd19650830da89b3",
+            "id": "92c36fbc5f922743",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -42,9 +42,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7cc9391891114290",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Others/QA Tester/Bug report.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "de40e36ec99518b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Amali Tech/Sovanta/SAP/Labs/Building side-by-side extensions on SAP BTP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -94,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 235.51103591918945
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "fd0dfcc9b3566824",
@@ -110,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "utils.md",
+                "file": "Amali Tech/Sovanta/SAP/Labs/Building side-by-side extensions on SAP BTP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "utils.md",
+                "file": "Amali Tech/Sovanta/SAP/Labs/Building side-by-side extensions on SAP BTP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "utils.md"
+                "file": "Amali Tech/Sovanta/SAP/Labs/Building side-by-side extensions on SAP BTP.md"
               }
             }
           },
@@ -165,12 +190,29 @@
                 "searchQuery": ""
               }
             }
+          },
+          {
+            "id": "6f8280e0ae60febd",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "f5923d85e684b906",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-chat-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -188,13 +230,46 @@
       "zk-prefixer:Create new unique note": false,
       "workspaces:Manage workspace layouts": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "fd19650830da89b3",
+  "active": "de40e36ec99518b5",
   "lastOpenFiles": [
+    "Pasted image 20240524112401.png",
+    "Pasted image 20240524112338.png",
+    "Pasted image 20240524112336.png",
+    "Pasted image 20240523210005.png",
+    "Pasted image 20240523205741.png",
+    "Amali Tech/Show and Tell Preps/Design Pattern.md",
+    "Amali Tech/Sovanta/SAP/Labs/Building side-by-side extensions on SAP BTP.md",
+    "Pasted image 20240523120537.png",
+    "Pasted image 20240522180343.png",
+    "Pasted image 20240521165052.png",
+    "Media/Images/Pasted image 20240521151918.png",
+    "Media/Images/Pasted image 20240521122606.png",
+    "Media/Images/Pasted image 20240521122451.png",
+    "Media/Images",
+    "Media",
+    "Others/QA Tester/Bug report.md",
+    "Amali Tech/Sovanta/SAP/Labs/Combine CAP with Hana Cloud to create full-stack applications.md",
+    "Amali Tech/Show and Tell Preps",
+    "Amali Tech/Sovanta/SAP/CDS.md",
+    "Amali Tech/Sovanta/SAP/Labs/Week3-Build an Application End-to-End using CAP and Node.js.md",
+    "Amali Tech/Sovanta/SAP/Deploy.md",
     "Amali Tech/Sovanta/SAP/basics.md",
+    "smart-chats/UNTITLED CHAT 2024-05-14 06 36 42.md",
+    "smart-chats/UNTITLED CHAT 2024-05-13 13 25 34.md",
+    "Others/QA Tester",
+    "Amali Tech/Sovanta/SAP/Labs",
+    "smart-chats/UNTITLED CHAT 2024-05-10 08 02 19.md",
+    "smart-chats",
+    "The Gym/JavaScript/JS/Anki.md",
+    "Amali Tech/Sovanta Brocker team meeting.md",
+    "Observable.md",
     "utils.md",
+    "Amali Tech/Sovanta/Briefings.md",
     "Amali Tech/Sovanta/SAP/SAP Skills.md",
     "Amali Tech/Sovanta/SAP/sap cap discussion.md",
     "Amali Tech/Sovanta/SAP/notes.md",
@@ -206,39 +281,8 @@
     "The Gym",
     "The Gym/Briefings/1&1/2023-11-16 - 1on1-with.md",
     "The Gym/JavaScript/JS Intermediate.md",
-    "202312070946.md",
-    "202310131041.md",
-    "The Gym/JavaScript/Nestjs/dependency injection.md",
-    "The Gym/Images/Pasted image 20240411124313.png",
-    "The Gym/Images/Screenshot from 2024-04-08 17-08-41.png",
-    "Amali Tech/Sovanta/Stand-up/2024-04-17.md",
-    "Amali Tech/Sovanta/Briefings.md",
-    "Amali Tech/Sovanta/Stand-up/stand-up March, 15 2024.md",
-    "Amali Tech/Onboarding/General Information Security Awareness Training The Human Firewall - Building the First Line of Defense.md",
-    "The Gym/Images/Screenshot from 2024-04-15 10-52-14.png",
-    "The Gym/JavaScript/Node/API/Tools.md",
     "Amali Tech/Sovanta/Stand-up",
-    "The Gym/Images/Screenshot from 2024-04-12 13-51-45.png",
-    "The Gym/Images/Screenshot from 2024-04-12 13-50-39.png",
-    "The Gym/Images/Screenshot from 2024-04-12 13-50-16.png",
-    "The Gym/Images/Screenshot from 2024-04-12 13-44-42.png",
-    "The Gym/Images/Screenshot from 2024-04-12 13-39-29.png",
-    "The Gym/Images/Screenshot from 2024-04-12 13-37-27.png",
-    "The Gym/Images/Screenshot from 2024-04-12 13-35-57.png",
-    "The Gym/JavaScript/Node/JWT.md",
     "Amali Tech/Sovanta",
-    "Amali Tech/Sovanta/SAP",
-    "The Gym/JavaScript/Node/Express.js.md",
-    "The Gym/JavaScript/Node/ORM.md",
-    "The Gym/JavaScript/Node/Clients-Servers.md",
-    "The Gym/JavaScript/Node/MongoDB.md",
-    "Amali Tech/JavaScript/Brush-up/Deep JS Foundation.md",
-    "Amali Tech/Onboarding/Orientation/Briefings/RW SC Orientation - Specialization, Chapters, and Projects Assignment.md",
-    "Amali Tech/Onboarding/Orientation/Briefings",
-    "Amali Tech/Onboarding/Orientation",
-    "Amali Tech/JavaScript/Brush-up",
-    "Amali Tech/Onboarding",
-    "Amali Tech/JavaScript",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

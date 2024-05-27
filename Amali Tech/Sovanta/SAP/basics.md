@@ -200,3 +200,6 @@ Accelerate development, minimize boilerplate and increase quality through single
 - [**CSN**] object-based representation of CDS models.
 - [**CQN**] object-based representation to capture queries. 
 - [**CXN**] object-based representation to capture expressions.
+## SAP BTP(Business Technology Platform)
+> is an open set of Software, Platform and Infrastructure as a service system that delivers in-memory capabilities, core platform services and unique micro-services for building and extending intelligent mobile and browser enabled application.
+> is multilingual, with support for most major languages (now including ABAP) and support for development, testing, and production systems both inside an organization and to the larger public
