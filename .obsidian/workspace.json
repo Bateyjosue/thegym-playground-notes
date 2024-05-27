@@ -118,8 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "fd0dfcc9b3566824",
@@ -212,8 +211,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 618.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -235,7 +233,7 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "de40e36ec99518b5",
+  "active": "f5923d85e684b906",
   "lastOpenFiles": [
     "Pasted image 20240524112401.png",
     "Pasted image 20240524112338.png",
