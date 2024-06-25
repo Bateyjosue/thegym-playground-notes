@@ -4,71 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "03c90219ba224ab7",
+        "id": "adc4449d46d6a844",
         "type": "tabs",
         "children": [
           {
-            "id": "1fa0bd3bdeddb7b0",
+            "id": "5096d8514b0e22ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Amali Tech/Sovanta/SAP/CDS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "671112e9565e7273",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Amali Tech/Show and Tell Preps/Design Pattern.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "92c36fbc5f922743",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "utils.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7cc9391891114290",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Others/QA Tester/Bug report.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "de40e36ec99518b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Amali Tech/Sovanta/SAP/Labs/Building side-by-side extensions on SAP BTP.md",
+                "file": "Amali Tech/TypeScript/8. TypeScript Interfaces.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "fd0dfcc9b3566824",
@@ -134,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Amali Tech/Sovanta/SAP/Labs/Building side-by-side extensions on SAP BTP.md",
+                "file": "Amali Tech/TypeScript/8. TypeScript Interfaces.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Amali Tech/Sovanta/SAP/Labs/Building side-by-side extensions on SAP BTP.md",
+                "file": "Amali Tech/TypeScript/8. TypeScript Interfaces.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Amali Tech/Sovanta/SAP/Labs/Building side-by-side extensions on SAP BTP.md"
+                "file": "Amali Tech/TypeScript/8. TypeScript Interfaces.md"
               }
             }
           },
@@ -211,7 +163,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 618.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -231,54 +184,54 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5923d85e684b906",
+  "active": "5096d8514b0e22ac",
   "lastOpenFiles": [
-    "Pasted image 20240524112401.png",
-    "Pasted image 20240524112338.png",
-    "Pasted image 20240524112336.png",
-    "Pasted image 20240523210005.png",
-    "Pasted image 20240523205741.png",
+    "Amali Tech/TypeScript/7. TypeScript Functions.md",
+    "Amali Tech/TypeScript/8. TypeScript Interfaces.md",
+    "Amali Tech/TypeScript/6. Type Guards-Narrowing.md",
+    "Amali Tech/TypeScript/5. Combining Types.md",
+    "Amali Tech/TypeScript/0. Introduction.md",
+    "Amali Tech/TypeScript/1. TypeScript Types.md",
+    "Amali Tech/TypeScript/2. Type Inference.md",
+    "Amali Tech/TypeScript/4. Type Compatibility.md",
+    "Amali Tech/Sovanta/SAP/SAP CAP Skills.md",
+    "Amali Tech/TypeScript",
+    "Amali Tech/Sovanta/SAP/CDS.md",
+    "reame.md",
+    "Media/Images/Screenshot from 2024-06-14 14-32-44.png",
+    "Amali Tech/Sovanta/SAP/basics.md",
+    "Amali Tech/Sovanta/SAP/search.md",
+    "Amali Tech/Sovanta/SAP/sap cap discussion.md",
+    "Amali Tech/Sovanta/SAP/notes.md",
+    "Amali Tech/Sovanta/SAP/Deploy.md",
+    "Resources Link.md",
+    "Media/Images/Pasted image 20240524112401.png",
+    "Media/Images/Pasted image 20240521165052.png",
+    "utils.md",
+    "Amali Tech/Sovanta Brocker team meeting.md",
+    "Others/Cyber/Networkiing/CCNA.md",
+    "Media/Images/Screenshot from 2024-06-14 15-14-41.png",
+    "Media/Images/Screenshot from 2024-06-14 15-05-04.png",
+    "Others/Cyber/Networkiing",
+    "Others/Cyber",
     "Amali Tech/Show and Tell Preps/Design Pattern.md",
+    "Amali Tech/Sovanta/SAP/Labs/Combine CAP with Hana Cloud to create full-stack applications.md",
+    "Media/Images/Pasted image 20240524112338.png",
+    "Media/Images/Pasted image 20240524112336.png",
+    "Media/Images/Pasted image 20240523210005.png",
+    "Media/Images/Pasted image 20240523205741.png",
     "Amali Tech/Sovanta/SAP/Labs/Building side-by-side extensions on SAP BTP.md",
-    "Pasted image 20240523120537.png",
-    "Pasted image 20240522180343.png",
-    "Pasted image 20240521165052.png",
-    "Media/Images/Pasted image 20240521151918.png",
-    "Media/Images/Pasted image 20240521122606.png",
-    "Media/Images/Pasted image 20240521122451.png",
+    "Media/Images/Pasted image 20240523120537.png",
     "Media/Images",
     "Media",
     "Others/QA Tester/Bug report.md",
-    "Amali Tech/Sovanta/SAP/Labs/Combine CAP with Hana Cloud to create full-stack applications.md",
     "Amali Tech/Show and Tell Preps",
-    "Amali Tech/Sovanta/SAP/CDS.md",
     "Amali Tech/Sovanta/SAP/Labs/Week3-Build an Application End-to-End using CAP and Node.js.md",
-    "Amali Tech/Sovanta/SAP/Deploy.md",
-    "Amali Tech/Sovanta/SAP/basics.md",
     "smart-chats/UNTITLED CHAT 2024-05-14 06 36 42.md",
-    "smart-chats/UNTITLED CHAT 2024-05-13 13 25 34.md",
     "Others/QA Tester",
     "Amali Tech/Sovanta/SAP/Labs",
-    "smart-chats/UNTITLED CHAT 2024-05-10 08 02 19.md",
     "smart-chats",
-    "The Gym/JavaScript/JS/Anki.md",
-    "Amali Tech/Sovanta Brocker team meeting.md",
-    "Observable.md",
-    "utils.md",
-    "Amali Tech/Sovanta/Briefings.md",
-    "Amali Tech/Sovanta/SAP/SAP Skills.md",
-    "Amali Tech/Sovanta/SAP/sap cap discussion.md",
-    "Amali Tech/Sovanta/SAP/notes.md",
-    "Introduction.md",
-    "The Gym/JavaScript/Nestjs/automated-testing.md",
-    "Others/AI tools for devs.md",
     "Others",
-    "reame.md",
-    "The Gym",
-    "The Gym/Briefings/1&1/2023-11-16 - 1on1-with.md",
-    "The Gym/JavaScript/JS Intermediate.md",
-    "Amali Tech/Sovanta/Stand-up",
-    "Amali Tech/Sovanta",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
