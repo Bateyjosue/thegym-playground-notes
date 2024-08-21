@@ -19,5 +19,3 @@
 8. Honor thy clients by always adding value to their business and that of AmaliTech
 9. Thou shalt be respectful and allow for diversity of opinions
 10. Thou shalt always accept responsibility and be accountable for your actions
-- Career path ways
-- 
