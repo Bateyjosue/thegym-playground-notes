@@ -4,3 +4,4 @@
 
 # Ignore Smart Connections folder
 .smart-connections
+.obsidian/plugins/smart-connections/data.json
