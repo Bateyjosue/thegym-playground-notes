@@ -8,43 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5096d8514b0e22ac",
+            "id": "7eea1bf4d9bd5e56",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Amali Tech/Sovanta/SAP/Retro.md",
+                "file": "Others/Cpp/C programming/variables.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "7a2b60151380365b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interview.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "642ab4b00c5a488d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Amali Tech/Sovanta/Clean code-CLasses.md",
-                "mode": "source",
-                "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "variables"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -64,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -79,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -87,14 +68,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 402.51103591918945
+    "width": 200
   },
   "right": {
     "id": "fd0dfcc9b3566824",
@@ -110,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Amali Tech/Sovanta/Clean code-CLasses.md",
+                "file": "Amali Tech/Sovanta Brocker team meeting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Sovanta Brocker team meeting"
             }
           },
           {
@@ -127,10 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Amali Tech/Sovanta/Clean code-CLasses.md",
+                "file": "Amali Tech/Sovanta Brocker team meeting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Sovanta Brocker team meeting"
             }
           },
           {
@@ -141,7 +128,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -150,8 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Amali Tech/Sovanta/Clean code-CLasses.md"
-              }
+                "file": "Amali Tech/Sovanta Brocker team meeting.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Sovanta Brocker team meeting"
             }
           },
           {
@@ -163,7 +154,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           },
           {
@@ -171,7 +164,9 @@
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -179,7 +174,9 @@
             "type": "leaf",
             "state": {
               "type": "smart-connections-chat-view",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
@@ -208,54 +205,54 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "642ab4b00c5a488d",
+  "active": "7eea1bf4d9bd5e56",
   "lastOpenFiles": [
+    "Others/Cpp/C programming/Introduction.md",
+    "Others/Cpp/C programming/variables.md",
+    "Others/Cpp/C programming/Token.md",
+    "Pasted image 20241107160032.png",
+    "Pasted image 20241107144742.png",
+    "Pasted image 20241107031354.png",
+    "Amali Tech/Sovanta/Infineon/formulas bonus calculation.md",
+    "Others/Cpp/C programming",
+    "Amali Tech/Sovanta/Stand-up/Weekly SAP Upskilling/2024-10-25.md",
+    "Amali Tech/IT Security/IT Security.md",
+    "Others/Cpp/Introduction.md",
+    "Others/Reg/Tasks-2024-10-29.md",
+    "Amali Tech/Sovanta/Stand-up/Weekly SAP Upskilling/Testing.md",
+    "Others/Reg",
+    "Amali Tech/Sovanta/Stand-up/Weekly SAP Upskilling/2024-11-10.md",
+    "Amali Tech/Back-End Chapter/10-10-2024.md",
     "Amali Tech/Sovanta/Clean code-CLasses.md",
+    "Amali Tech/Sovanta/Stand-up/stand-up March, 15 2024.md",
+    "Amali Tech/Sovanta/Stand-up/2024-04-17.md",
+    "Others/Cpp",
+    "Amali Tech/Sovanta Brocker team meeting.md",
+    "Amali Tech/Sovanta/Briefings.md",
     "Interview.md",
-    "Amali Tech/Sovanta/SAP/Retro.md",
-    "The Gym/Retrospective/Self Evaluation.md",
-    "The Gym/Retrospective/Retrospective.md",
-    "The Gym/Retrospective/Project.md",
-    "The Gym/Retrospective/mypassion.md",
-    "The Gym/Retrospective/Feedback.md",
-    "The Gym/Retrospective/Clédia.md",
-    "The Gym/Retrospective/Articles.md",
-    "Retrospective 644c8495de4e4592a6f99c6f06627782/Team Work Ojemba Website.md",
-    "Retrospective 644c8495de4e4592a6f99c6f06627782",
-    "The Gym/JavaScript/Nestjs/dependency injection.md",
-    "Amali Tech/Onboarding/Orientation/Briefings/2024-04-04-Orientation Amali Tech Culture.md",
-    "Amali Tech/Onboarding/Orientation/Briefings/2024-04-04-Introduction To AmaliTech Service Center New Hires.md",
-    "Amali Tech/Onboarding/Orientation/Briefings/2024-04-04 Orientation-HR Policies & Procedures-Pritchard.md",
-    "Amali Tech/Onboarding/Orientation/Briefings/2024-04-03-Pritchard-and-Roger-on-RW Operations Orientation.md",
-    "Amali Tech/Onboarding/Orientation/Briefings/2024-04-03-Gilbert-Brocker-RW SC Orientation.md",
-    "Amali Tech/Onboarding/Orientation/Briefings/2024-04-02.md",
-    "Amali Tech/TypeScript/8. TypeScript Interfaces.md",
-    "Amali Tech/TypeScript/7. TypeScript Functions.md",
-    "Amali Tech/TypeScript/6. Type Guards-Narrowing.md",
+    "Amali Tech/Sovanta/Stand-up/Weekly SAP Upskilling",
+    "Amali Tech/Sovanta/Infineon/High-level-design.md",
+    "Others/KodeKloud/Git.md",
+    "Others/KodeKloud",
+    "Amali Tech/Back-End Chapter",
+    "Amali Tech/Sovanta/SAP/BTP cockpit.md",
+    "Untitled.md",
+    "Others/DSA/Game platform.md",
+    "Amali Tech/IT Security",
+    "Others/DSA",
     "Amali Tech/TypeScript/5. Combining Types.md",
-    "Amali Tech/TypeScript/0. Introduction.md",
-    "Amali Tech/TypeScript/1. TypeScript Types.md",
-    "Amali Tech/TypeScript/2. Type Inference.md",
+    "Amali Tech/Sovanta/Infineon",
     "Amali Tech/TypeScript/4. Type Compatibility.md",
-    "Amali Tech/TypeScript",
+    "Amali Tech/TypeScript/2. Type Inference.md",
+    "Amali Tech/TypeScript/1. TypeScript Types.md",
+    "Retrospective",
     "Media/Images/Screenshot from 2024-06-14 14-32-44.png",
     "Media/Images/Pasted image 20240524112401.png",
     "Media/Images/Pasted image 20240521165052.png",
     "Media/Images/Screenshot from 2024-06-14 15-14-41.png",
     "Media/Images/Screenshot from 2024-06-14 15-05-04.png",
-    "Others/Cyber/Networkiing",
-    "Others/Cyber",
     "Media/Images/Pasted image 20240524112338.png",
     "Media/Images/Pasted image 20240524112336.png",
-    "Media/Images/Pasted image 20240523210005.png",
-    "Media/Images/Pasted image 20240523205741.png",
-    "Media/Images/Pasted image 20240523120537.png",
-    "Media/Images",
-    "Media",
-    "Amali Tech/Show and Tell Preps",
-    "Others/QA Tester",
-    "Amali Tech/Sovanta/SAP/Labs",
-    "smart-chats",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
