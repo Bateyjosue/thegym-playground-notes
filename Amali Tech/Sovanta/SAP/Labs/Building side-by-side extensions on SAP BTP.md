@@ -186,13 +186,13 @@ When working with the CAP Service SDK for Node.js, understanding and implementin
 
 Implementing good error handling practices in your Node.js applications, especially those developed with the CAP Service SDK, is essential for building resilient, efficient, and user-friendly applications. It ensures that your application can handle unexpected situations gracefully, improving the overall reliability and user experience.
 
-# Describing Authorization and Trust Management (XSUAA)
-## SAP Authorization and Trust Management Service (XSUAA)
+# Describing Authorization and Trust Management and XSUAA
+## SAP Authorization and Trust Management Service 
 The SAP Authorization and Trust Management service, in conjunction with the Extended Services - User Account and Authentication (XSUAA) service, provides a comprehensive solution for securing applications on the SAP Business Technology Platform (BTP) within the Cloud Foundry environment. This combination ensures that applications are protected against unauthorized access, thereby safeguarding both the integrity of the applications and the confidentiality of the data they handle.
 
 ### Managing User Authorizations
 
-The SAP Authorization and Trust Management service allows for the management of user authorizations and trust relationships with identity providers. Identity providers serve as the user base for applications, which can range from an identity authentication tenant, an SAP on-premise system, or a custom corporate identity provider. User authorizations are managed through technical roles at the application level, which can then be aggregated into business-level groups and role collections for larger scale cloud scenarios. This modular approach to authorization management facilitates the secure and efficient administration of access rights across complex application landscapes.
+The SAP Authorization and Trust Management service allows for the management of user authorizations and trust relationships with identity providers. **Identity providers** serve as the user base for applications, which can range from an identity authentication tenant, an SAP on-premise system, or a custom corporate identity provider. User authorizations are managed through technical roles at the application level, which can then be aggregated into business-level groups and role collections for larger scale cloud scenarios. This modular approach to authorization management facilitates the secure and efficient administration of access rights across complex application landscapes.
 
 ### Platform Users vs. Business Users
 
@@ -200,7 +200,7 @@ The SAP Authorization and Trust Management service allows for the management of 
 
 - **Business Users**: Represent the end-users of the deployed applications or users of subscribed apps or services, such as SAP Business Application Studio or SAP Web IDE. Business users can also be authenticated via a corporate identity provider, offering a seamless integration with existing enterprise identity management systems.
 
-### Extended Services - User Account and Authentication (XSUAA) Service
+## Extended Services - User Account and Authentication (XSUAA) Service
 
 The XSUAA service plays a pivotal role in authenticating and authorizing users, assigning the appropriate privileges to user sessions. It identifies users by attributes such as email, userId, firstName, and lastName, and checks their roles (scopes) to determine whether a user is authorized to perform specific actions. The XSUAA service is an extension of the open-source UAA OAuth2 Provider of Cloud Foundry, adapted with SAP-specific features to cater to the needs of SAP applications. Notably, the XSUAA service does not store "real" users but relies on external Identity Providers (IdPs) for authentication.
 
