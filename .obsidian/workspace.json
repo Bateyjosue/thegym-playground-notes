@@ -25,14 +25,17 @@
             "id": "3bf1febcfecb0484",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Amali Tech/Sovanta/SAP/BTP cockpit.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "BTP cockpit"
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled"
             }
           },
           {
@@ -216,8 +219,9 @@
   },
   "active": "3bf1febcfecb0484",
   "lastOpenFiles": [
-    "CTD/Review week 2.md",
     "Amali Tech/Sovanta/SAP/BTP cockpit.md",
+    "Untitled.canvas",
+    "CTD/Review week 2.md",
     "Amali Tech/AWS/AWS Management console.md",
     "Amali Tech/Sovanta/SAP/Labs/Building side-by-side extensions on SAP BTP.md",
     "Amali Tech/Sovanta/SAP/Labs/Week3-Build an Application End-to-End using CAP and Node.js.md",
@@ -249,7 +253,6 @@
     "Amali Tech/Sovanta/Stand-up/Weekly SAP Upskilling/2024-10-25.md",
     "Amali Tech/IT Security/IT Security.md",
     "Others/Cpp/Introduction.md",
-    "Others/Reg/Tasks-2024-10-29.md",
     "Others/Reg",
     "Others/Cpp",
     "Amali Tech/Sovanta/Stand-up/Weekly SAP Upskilling",
@@ -262,7 +265,6 @@
     "Media/Images/Pasted image 20240521165052.png",
     "Media/Images/Screenshot from 2024-06-14 15-14-41.png",
     "Media/Images/Screenshot from 2024-06-14 15-05-04.png",
-    "Untitled.canvas",
     "Untitled 1.canvas"
   ]
 }
